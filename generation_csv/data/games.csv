@@ -1,0 +1,1001 @@
+id,name,type,developer,publisher,req_age,date_publish,number_copies,price
+1,Team Fortress Classic,game,378,378,18,1.04.1999,2319384,133.0
+2,Day of Defeat,game,378,378,16,1.05.2003,1033636,133.0
+3,Deathmatch Classic,game,378,378,12,1.06.2001,825692,133.0
+4,Half-Life: Opposing Force,game,126,378,18,1.11.1999,2999540,133.0
+5,Ricochet,game,378,378,18,1.11.2000,1148290,133.0
+6,Half-Life,game,378,378,14,8.11.1998,53834803,259.0
+7,Counter-Strike: Condition Zero,game,378,378,18,1.03.2004,13964719,259.0
+8,Counter-Strike: Condition Zero,game,378,378,12,1.03.2004,3203761,259.0
+9,Half-Life: Blue Shift,game,126,378,21,1.06.2001,9361683,133.0
+10,Half-Life 2,game,378,378,16,16.11.2004,26717088,259.0
+11,Counter-Strike: Source,game,378,378,18,1.11.2004,28241228,259.0
+12,Half-Life: Source,game,378,378,18,1.06.2004,2548000,259.0
+13,Day of Defeat: Source,game,378,378,12,12.07.2010,9050580,259.0
+14,Half-Life 2: Deathmatch,game,378,378,21,1.11.2004,5816844,133.0
+15,Half-Life 2: Lost Coast,game,378,378,18,27.10.2005,6052380,1813.0
+16,Half-Life Deathmatch: Source,game,378,378,12,1.05.2006,1804236,259.0
+17,Half-Life 2: Episode One,game,378,378,18,1.06.2006,3593670,195.0
+18,Portal,game,378,378,16,10.10.2007,28886556,10500.0
+19,Portal: First Slice,demo,378,378,16,8.05.2008,793,0.0
+20,Half-Life 2: Episode Two,game,378,378,21,10.10.2007,11240424,195.0
+21,Team Fortress 2,game,378,378,14,10.10.2007,14704856,0.0
+22,Left 4 Dead,game,378,378,16,17.11.2008,33312726,259.0
+23,Dota 2,game,378,378,14,9.07.2013,12290572,0.0
+24,Portal 2,game,378,378,12,18.04.2011,113592702,10500.0
+25,Alien Swarm,game,378,378,18,19.07.2010,129744,0.0
+26,Counter-Strike: Global Offensive,game,378,378,16,21.08.2012,220908802,0.0
+27,Left 4 Dead 2,game,378,378,18,16.11.2009,412500516,259.0
+28,Zombie Movie,movie,1,1,18,1.05.2006,559,1946.0
+29,Hitman: Blood Money Trailer,movie,1,1006,14,15.03.2007,884,474.0
+30,SpaceForce™ Rogue Universe Trailer,movie,1,1,14,18.07.2007,443,469.0
+31,Red Orchestra: Ostfront 41-45,game,363,363,12,14.03.2006,1000384,133.0
+32,Mare Nostrum,mod,1,363,16,17.10.2008,52520,0.0
+33,Killing Floor,game,363,363,14,14.05.2009,6397498,399.0
+34,Darkest Hour: Europe '44-'45,mod,1,1,21,9.06.2009,516675,0.0
+35,SiN Episodes: Emergence,game,1001,1001,21,10.05.2006,92650,259.0
+36,Darwinia,game,154,154,16,14.07.2005,315456,259.0
+37,Uplink,game,154,154,16,23.08.2006,760699,249.0
+38,DEFCON,game,154,154,18,29.09.2006,1532826,259.0
+39,Multiwinia,game,154,154,16,19.09.2008,142443,259.0
+40,Multiwinia Demo,demo,154,154,16,19.09.2008,319,0.0
+41,Dangerous Waters,game,1,1002,18,7.02.2006,144613,499.0
+42,Space Empires IV Deluxe,game,1,1002,21,7.02.2006,60085,249.0
+43,Jagged Alliance 2 Gold,game,1002,1002,21,6.07.2006,776,419.0
+44,Disciples II: Rise of the Elves ,game,1002,1002,21,6.07.2006,544260,169.0
+45,Disciples II: Gallean's Return,game,1002,1002,18,6.07.2006,964896,169.0
+46,Iron Warriors: T - 72 Tank Command ,game,1002,1002,18,26.07.2006,72078,129.0
+47,Space Empires V,game,1,1002,14,16.10.2006,202048,349.0
+48,Arx Fatalis Demo,demo,34,34,16,4.04.2007,528,0.0
+49,Source Filmmaker,game,378,378,14,10.07.2012,168672,0.0
+50,Painkiller Overdose Teaser,movie,1,1,16,17.10.2007,221,513
+51,Project Aftermath Video,movie,1,1,14,3.10.2008,525,1085
+52,Fallout 3 Gameplay Video: 2 of 5,movie,47,1023,14,24.10.2008,622,959
+53,Left 4 Dead TV Spot 2 - 1080p,movie,378,378,18,17.11.2008,385,1920
+54,Command and Conquer: Red Alert 3 HD Trailer 1,movie,1,97,18,18.12.2008,704,1313
+55,EverQuest® II Rise of Kunark™ Starter Pack Trailer,movie,1,1,14,16.01.2009,366,356
+56,Grey's Anatomy Trailer,movie,1,369,21,13.03.2009,632,1919
+57,Flock! Trailer 2,movie,245,63,14,7.04.2009,968,857
+58,Red Faction Guerrilla Tools of Destruction Video 3,movie,1,346,21,27.04.2009,981,499
+59,Red Faction Guerrilla - Developer Diary,movie,1,346,16,6.05.2009,472,591
+60,Batman: Arkham Asylum Invisible Predator Trailer,movie,378,378,16,31.07.2009,990,1899
+61,Cricket Revolution Gameplay Trailer,movie,1,1,16,5.08.2009,542,700
+62,Section 8 Teaser Trailer,movie,350,1,16,12.08.2009,475,1133
+63,Ashes Cricket 2009 - Tunnel Trailer,movie,1,69,21,18.08.2009,585,1944
+64,Heroes Over Europe - Environments Trailer,movie,1,369,21,1.09.2009,834,1780
+65,R.U.S.E.™ - Pump Fake Strategy Trailer,movie,103,369,14,16.10.2009,362,1663
+66,Shattered Horizon Silent Running Trailer,movie,121,121,18,11.11.2009,214,1938
+67,EverQuest® II Sentinel's Fate Trailer,movie,378,378,21,16.02.2010,589,249
+68,Supreme Commander 2 Pulinsmash Trailer,movie,1,1006,16,18.02.2010,956,1368
+69,Settlers 7 Economy Tutorial Trailer,movie,1,369,12,15.03.2010,912,1788
+70,RUSE Open Beta Introduction,movie,103,369,12,9.03.2010,713,1629
+71,Lead and Gold Launch Trailer,movie,107,1013,16,8.04.2010,720,231
+72,Chrome Trailer 1,movie,334,1,21,14.05.2010,578,759
+73,Kane & Lynch 2: Cops & Robbers Mode English (PEGI),movie,1,1006,18,26.07.2010,447,536
+74,Kane & Lynch 2: Fragile Alliance Mode (ES),movie,1,1006,16,26.07.2010,932,933
+75,Kane & Lynch 2: Undercover Cop Mode (DE),movie,1,1006,16,26.07.2010,179,247
+76,Dungeon Siege III Trailer,movie,220,312,12,20.10.2010,274,834
+77,Call of Duty: Black Ops Multiplayer Teaser,movie,360,27,16,27.08.2010,579,301
+78,MOH: Experience - Part 4,movie,97,97,14,23.09.2010,644,1013
+79,ArcaniA Trailer 3,movie,1,1,21,14.10.2010,592,328
+80,Shank,game,166,166,12,25.10.2010,1976910,259.0
+81,Shank Demo,demo,166,97,21,26.10.2010,336,0.0
+82,Ghost Master®,game,1005,1002,16,21.12.2006,1418670,129.0
+83,Vegas: Make It Big™,game,1,1002,12,21.12.2006,74292,129.0
+84,FlatOut,game,59,1002,12,2.02.2007,522880,149.0
+85,FlatOut Demo,demo,59,1002,18,2.02.2007,808,0.0
+86,Making History: The Calm & the Storm,game,1,1002,12,13.03.2007,268800,129.0
+87,Making History Demo,demo,1,1002,16,13.03.2007,336,0.0
+88,Ducati World Championship,game,1,1002,16,21.09.2007,137259,129.0
+89,Alien Shooter - Vengeance,advertising,1,1002,14,21.12.2007,546,202
+90,Dreamfall: The Longest Journey,game,120,120,21,12.01.2007,796094,599.0
+91,The Longest Journey,game,120,120,21,1.05.2007,1476041,299.0
+92,The Longest Journey Demo,demo,120,120,18,1.05.2007,848,0.0
+93,Age of Conan: Hyborian Adventures,advertising,120,1006,16,4.09.2008,246,642
+94,Bloodline Champions,game,1,1,14,28.10.2011,369,0.0
+95,Joint Task Force Demo,demo,1,1,18,27.03.2007,520,0.0
+96,Nexus - The Jupiter Incident,game,1,1021,12,3.07.2007,512499,299.0
+97,Lost Planet Demo,demo,1,63,18,15.05.2007,649,0.0
+98,Bullet Candy,game,1,1,14,14.02.2007,920,99.0
+99,Commandos: Behind Enemy Lines,game,1,164,14,15.03.2007,506150,299.0
+100,Commandos: Beyond the Call of Duty,game,1,164,14,15.03.2007,484055,299.0
+101,Commandos 2: Men of Courage,game,1,164,12,15.03.2007,1908859,299.0
+102,Commandos 3: Destination Berlin,game,1,164,18,15.03.2007,291054,299.0
+103,Hitman: Codename 47,game,156,156,12,15.03.2007,1118088,259.0
+104,EVE Online,game,1,1,21,15.12.2010,6028484,0
+105,Empire: Total War™ Demo,demo,73,1,16,20.02.2009,973,0
+106,Virtua Tennis 2009,advertising,1,1,14,3.07.2009,741,891
+107,Loki Demo - Norse Warrior,demo,79,1,14,5.10.2007,425,0
+108,TrackMania Nations Forever,game,204,369,16,16.04.2008,126463,0
+109,Sherlock Holmes - Nemesis Demo,demo,116,1,12,7.08.2008,846,0
+110,Dracula Origin Demo,demo,116,1,18,7.08.2008,482,0
+111,Sherlock Holmes: The Mystery of the Mummy,game,116,116,21,6.08.2009,594,0
+112,Sherlock Holmes: The Awakened (2008),game,116,116,14,6.08.2009,404488,395
+113,Sherlock Holmes: The Silver Earring,game,116,116,12,6.08.2009,211815,1257
+114,Shadowgrounds Survivor,game,118,118,18,14.11.2007,426935,249.0
+115,Shadowgrounds Survivor Demo,demo,118,118,18,15.02.2008,879,0
+116,Gumboy Tournament,game,1,1,18,19.05.2008,255731,59.0
+117,Space Trader: Merchant Marine,game,1,1,14,23.10.2008,208926,129.0
+118,Pacific Storm,game,1,1,14,24.06.2008,988,149.0
+119,Pacific Storm Allies,game,177,1,21,18.08.2008,134186,149.0
+120,Gumboy Tournament Demo,demo,1,1,12,13.11.2008,192,0
+121,Penguins Arena: Sedna's World,game,1,1,12,18.12.2008,120530,149.0
+122,Obulis,game,1,1,12,19.03.2009,467343,1208
+123,Larva Mortus,game,1,1,18,19.03.2009,494748,82.0
+124,Chains,game,1,1,21,1.07.2009,139476,82.0
+125,Nikopol: Secrets of the Immortals,game,502,1,18,30.07.2009,183844,129.0
+126,Crash Time 2,game,378,378,14,27.08.2009,642096,133.0
+127,Overlord™ Demo,demo,364,69,14,26.10.2007,448,0
+128,Soldiers: Heroes of World War II,game,1008,1,14,3.07.2014,77462,159.0
+129,ToCA Race Driver 3,advertising,69,69,16,13.02.2009,799,1522
+130,Second Sight,game,112,346,18,8.04.2021,23364,299.0
+131,LUMINES™ Demo,demo,248,248,21,18.04.2008,197,0
+132,LUMINES™ Advance Pack,game,248,248,16,18.04.2008,686,1776
+133,Grand Theft Auto: Vice City,game,267,267,16,4.01.2008,1641034,1251
+134,Midnight Club 2,game,273,267,16,4.01.2008,140208,269
+135,Grand Theft Auto,game,272,267,16,4.01.2008,64167,1211
+136,Grand Theft Auto 2,game,272,267,16,4.01.2008,82450,1228
+137,Baseball Mogul 2008,advertising,1,1002,16,13.02.2008,705,1260
+138,Culpa Innata,game,1,1002,21,18.01.2008,666,249.0
+139,Sacred Gold,game,1,346,12,9.07.2008,2896560,249.0
+140,Darkstar One,game,36,1002,12,13.02.2008,340025,249.0
+141,Jack Keane,game,1,1,16,27.06.2008,288,199.0
+142,FlatOut: Ultimate Carnage,game,59,1002,18,26.08.2008,1793207,299.0
+143,Jagged Alliance 2 Gold,game,1002,1002,14,6.07.2006,282,419.0
+144,Jagged Alliance 2 Gold,game,1002,1002,16,6.07.2006,284,419.0
+145,Exodus from the Earth ,game,1,1002,14,24.10.2008,22704,249.0
+146,"Bill ""Spaceman"" Lee Baseball Mogul 2009",advertising,1,1002,16,23.10.2008,993,232
+147,Perimeter 2: New Earth,game,1,1002,18,10.02.2009,917,349.0
+148,SlamIt Pinball Big Score,game,1,164,18,23.02.2009,37698,299.0
+149,Ankh 2: Heart of Osiris ,game,1,1002,14,16.06.2009,952,349.0
+150,Ankh 3: Battle of the Gods,game,1,1002,18,16.06.2009,779,349.0
+151,BC Kings,game,1,1002,12,16.06.2009,132720,129.0
+152,Port Royale 2,game,36,1002,18,16.06.2009,427700,99.0
+153,9th Company: Roots Of Terror,game,1,1002,12,3.12.2009,49920,249.0
+154,PuzzleQuest: Challenge of the Warlords,game,1,1,12,29.01.2008,375820,249.0
+155,Prison Tycoon 3™: Lockdown,game,1011,1,16,29.01.2008,105685,249.0
+156,18 Wheels of Steel: American Long Haul,game,286,1,14,29.01.2008,142595,249.0
+157,Hunting Unlimited™ 2008,game,286,1,12,29.01.2008,575,199.0
+158,Mahjongg Investigations: Under Suspicion,game,1,1,18,29.07.2008,430,199.0
+159,The Wonderful End of the World,game,1,1,16,17.07.2008,184756,249.0
+160,The Wonderful End of the World Demo,demo,1,1,21,17.07.2008,401,0
+161,AaAaAA!!! - A Reckless Disregard for Gravity,game,1,1,18,3.09.2009,281980,249.0
+162,AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome,game,1,1,18,23.11.2011,190320,249.0
+163,"Warhammer® 40,000™: Dawn of War® II Single-player Demo",demo,260,346,16,15.04.2009,562,0
+164,Oddworld: Abe's Oddysee®,game,1,1,18,28.08.2008,1180576,79.0
+165,Oddworld: Abe's Exoddus®,game,1,1,12,28.08.2008,793650,79.0
+166,Oddworld: Abe's Exoddus® Demo,demo,1,1,21,28.08.2008,527,0
+167,Oddworld: Abe's Oddysee® Demo,demo,1,1,21,28.08.2008,447,0
+168,Oddworld: Munch's Oddysee,game,1,1,18,20.12.2010,771786,129.0
+169,Oddworld: Stranger's Wrath HD,game,1,1,21,20.12.2010,277056,249.0
+170,Planet Busters Demo,demo,1,1,12,17.07.2008,477,0
+171,7 Wonders II,game,1,1,18,10.06.2008,863,199.0
+172,Luxor Amun Rising,game,1,1,18,10.06.2008,823,199.0
+173,Luxor 2,game,1,1,21,10.06.2008,443,199.0
+174,Luxor 3,game,1,1,16,10.06.2008,366,199.0
+175,The Office,advertising,1,1,14,10.06.2008,651,958
+176,Little Farm,game,1,1,16,10.06.2008,660,199.0
+177,Luxor,game,1,1,21,10.06.2008,983,199.0
+178,Money Tree,advertising,1,1,16,15.12.2008,346,636
+179,Elf Bowling: Hawaiian Vacation,advertising,1,1,14,9.07.2008,770,345
+180,Discovery! A Seek and Find Adventure,game,1,1,21,29.07.2008,375,199.0
+181,Samantha Swift and the Hidden Roses of Athena,game,1,1,16,31.10.2008,880,199.0
+182,7 Wonders: Treasures of Seven,game,1,1,21,14.11.2008,725,199.0
+183,Luxor: Quest for the Afterlife ,game,1,1,21,15.12.2008,235,199.0
+184,Samantha Swift and the Golden Touch,game,1,1,18,29.04.2009,167,199.0
+185,Virtual Villagers: A New Home Demo,demo,1,1,18,12.05.2008,251,0
+186,Virtual Villagers: The Lost Children Demo,demo,1,1,14,12.05.2008,201,0
+187,Plant Tycoon Demo,demo,1,1,14,12.05.2008,659,0
+188,Fish Tycoon Demo,demo,1,1,21,12.05.2008,589,0
+189,Virtual Villagers - The Secret City Demo,demo,1,1,14,28.05.2008,851,0
+190,Virtual Families Demo,demo,1,1,16,6.05.2009,768,0
+191,Chaos Theory Demo,demo,1,1,18,22.05.2008,675,0
+192,Trials 2: Second Edition Demo,demo,1,1,16,28.05.2008,647,0
+193,Monster Trucks Nitro Demo,demo,1,1,14,29.01.2009,888,0
+194,Stronghold Crusader Extreme,advertising,109,1,16,1.07.2008,210000,658
+195,Insecticide Part 1,game,1,269,16,1.07.2008,300820,82.0
+196,Velvet Assassin,game,1,269,18,1.05.2009,533262,133.0
+197,Legendary,game,304,1,18,1.12.2008,864955,133.0
+198,Sid Meier's Civilization IV: Colonization,game,108,4,16,23.09.2008,308477,1654
+199,GROUND BRANCH,game,1,195,12,14.08.2018,6297002,435.0
+200,Global Agenda: Free Agent,game,1,1,12,14.06.2011,190320,0
+201,Tribes: Ascend,game,1,1,16,27.06.2012,755,0
+202,Children of the Nile: Enhanced Edition,game,349,349,14,8.07.2008,242977,199.0
+203,Children of the Nile: Enhanced Edition Demo,demo,349,349,14,8.07.2008,440,0
+204,Children of the Nile: Alexandria,game,349,349,18,22.09.2008,53436,69.0
+205,Hinterland,game,349,349,21,30.09.2008,134664,249.0
+206,Mosby's Confederacy,game,349,349,12,19.11.2008,831,249.0
+207,Crysis,game,78,97,21,17.09.2008,2946504,476
+208,Need for Speed Undercover,game,92,97,21,19.12.2008,4687692,582
+209,Dragon Age: Origins,game,50,97,12,6.11.2009,4804107,528
+210,Red Faction Guerrilla Steam Edition,game,1,1,12,15.09.2009,2723720,1195
+211,Red Faction,game,1,1,12,18.09.2001,1429900,481
+212,Red Faction II,game,1,1,12,6.08.2009,686784,972
+213,World of Zoo: Animal Creator Demo,demo,1,1,12,1.09.2009,347,0
+214,Starscape,game,1,1,21,3.11.2008,818,199.0
+215,Mr. Robot,game,1,1,21,3.11.2008,500,199.0
+216,Starscape Demo,demo,1,1,16,3.11.2008,314,0
+217,Mr. Robot Demo,demo,1,1,14,3.11.2008,494,0
+218,Shatter,game,1,1,21,15.03.2010,90720,61.0
+219,Watchmen: The End is Nigh Demo,demo,1,1,21,4.03.2009,519,0
+220,Gravitron 2,game,1,1,18,30.09.2008,841,99.0
+221,Gravitron 2 Demo,demo,1,1,12,30.09.2008,667,0
+222,Project Aftermath,game,1,1,18,3.10.2008,885,1240
+223,Project Aftermath Demo,demo,1,1,18,2.10.2008,425,0
+224,Pyroblazer® Demo,demo,1,1,14,30.01.2009,610,0
+225,Age of Booty™,game,1,63,21,9.03.2009,122976,1657
+226,Age of Booty™ Demo,demo,1,63,21,9.03.2009,691,0
+227,Flock!,game,245,63,21,7.04.2009,67804,1151
+228,Flock! Demo,demo,245,63,12,24.03.2009,557,0
+229,Bionic Commando: Rearmed,game,63,63,18,28.07.2009,249184,1008
+230,CSI: Crime Scene Investigation™:  Hard Evidence,advertising,1,369,21,24.08.2009,214,570
+231,World In Conflict,advertising,189,369,12,4.12.2008,220341,598
+232,Tom Clancy's H.A.W.X™,advertising,369,369,16,18.03.2009,182748,1254
+233,World In Conflict,advertising,189,369,18,4.12.2008,386052,1914
+234,TMNT™,advertising,369,369,12,27.05.2009,836,837
+235,World of Goo,game,1,1,12,13.10.2008,1333197,360.0
+236,World of Goo Demo,demo,1,1,12,16.10.2008,580,0
+237,Mount & Blade,game,1,1,16,3.11.2008,2871540,249.0
+238,Mount and Blade Demo,demo,1,1013,14,3.11.2008,884,0
+239,Penumbra: Black Plague Gold Edition,game,115,115,18,23.01.2009,514604,249.0
+240,Hearts of Iron 2 Complete,game,228,1013,16,23.01.2009,295038,299.0
+241,Europa Universalis III Complete Demo,demo,1013,1013,16,15.02.2009,783,0
+242,Europa Universalis: Rome - Gold Edition Demo,demo,1013,1013,14,15.02.2009,861,0
+243,Hearts of Iron 2 Demo,demo,1013,1013,16,15.02.2009,587,0
+244,Penumbra Overture,game,115,115,12,6.03.2009,664272,249.0
+245,Zeno Clash,game,25,25,16,21.04.2009,1204806,249.0
+246,Zeno Clash Demo,demo,25,25,12,1.05.2009,552,0
+247,BRINK,game,309,1023,21,9.05.2011,1240473,0
+248,BRINK,game,309,1023,16,9.05.2011,1319055,0
+249,Cricket Revolution Demo,demo,1,1,12,15.10.2009,150,0
+250,Eschalon: Book I,game,1,1,12,10.02.2009,82104,0
+251,Eschalon: Book I Demo,demo,1,1,21,11.02.2009,403,0
+252,Eschalon: Book II,game,1,1,21,12.07.2010,903,149.0
+253,Madballs in Babo:Invasion,game,1,1,16,17.09.2009,41688,129.0
+254,Madballs Demo,demo,1,1,18,17.09.2009,224,0
+255,Madballs B*D*I Clan Skins,dlc,1,1,21,16.08.2010,374,59.0
+256,Europa Universalis III Complete,game,228,1013,14,4.02.2009,211848,299.0
+257,Europa Universalis III: Western - AD 1400 Spritepack,dlc,1013,1013,14,23.06.2011,188,49.0
+258,Knights of Honor,game,1,1013,14,4.02.2009,960666,249.0
+259,Elven Legacy,game,1,1,18,7.04.2009,24062,149.0
+260,Sword of the Stars: Complete Collection,game,1,1013,12,4.06.2010,445081,199.0
+261,Stalin vs. Martians,advertising,1,1,14,29.04.2009,560,1675
+262,Hearts of Iron III,game,228,1013,18,7.08.2009,1834300,199.0
+263,King's Bounty: The Legend,game,1,1,16,1.05.2009,758636,149.0
+264,Supreme Ruler 2020 Gold,game,1014,1014,16,9.07.2009,64010,249.0
+265,East India Company,game,1,1,16,31.07.2009,80864,199.0
+266,East India Company: Pirate Bay,dlc,1,1,14,31.07.2009,505,99.0
+267,Hearts of Iron III: Soviet Infantry Pack DLC,dlc,1013,1013,16,18.02.2010,185,39.0
+268,Majesty 2,game,1,1013,16,17.09.2009,268536,199.0
+269,Majesty Gold HD,game,1,1013,21,4.09.2009,392196,199.0
+270,The Maw Demo,demo,1,1,21,13.03.2009,340,0
+271,Cogs,game,1,1,21,14.04.2009,99428,154.0
+272,Cogs Demo,demo,1,1,12,14.04.2009,552,0
+273,Smashing Toys,advertising,1,1,21,22.04.2009,692,1201
+274,Smashing Toys,advertising,1,1,14,22.04.2009,892,1961
+275,Braid,game,1,1,18,10.04.2009,5616500,349.0
+276,Braid Demo,demo,1,1,12,11.04.2009,165,0
+277,Crayon Physics Deluxe,game,1,1,18,6.05.2009,110856,299.0
+278,Crayon Physics Deluxe Demo,demo,1,1,12,6.05.2009,693,0
+279,The Path,game,328,328,14,18.03.2009,525495,249.0
+280,The Graveyard,game,328,328,18,9.03.2009,204844,129.0
+281,The Graveyard Trial,demo,328,328,14,9.03.2009,735,0
+282,The Path - Prologue,demo,328,328,18,8.06.2009,885,0
+283,Fatale,game,328,328,12,4.11.2009,70349,169.0
+284,Summer Athletics,game,1,1,21,2.04.2009,413,299.0
+285,Wallace & Gromit’s Grand Adventures,game,1,1,12,23.03.2009,962,360.0
+286,"Wallace & Gromit’s Grand Adventures, Episode 2: The Last Resort",advertising,1,1,12,5.05.2009,495,464
+287,"Wallace & Gromit’s Grand Adventures, Episode 3: Muzzled!",advertising,1,1,12,15.06.2009,209,864
+288,"Wallace & Gromit’s Grand Adventures, Episode 4: The Bogey Man",advertising,1,1,21,30.07.2009,525,1193
+289,Wallace & Gromit’s Grand Adventures,game,1,1,21,23.03.2009,686,360.0
+290,Tales of Monkey Island: Complete Season,game,1,1,14,7.07.2009,362773,360.0
+291,Tales of Monkey Island Complete Pack: Chapter 2 - The Siege of Spinner Cay,game,1,1,21,20.08.2009,742,360.0
+292,Tales of Monkey Island Complete Pack: Chapter 3 - Lair of the Leviathan,game,1,1,14,29.09.2009,529,360.0
+293,Tales of Monkey Island Complete Pack: Chapter 4 - The Trial and Execution of Guybrush Threepwood,game,1,1,16,30.10.2009,890,360.0
+294,Tales of Monkey Island Complete Pack: Chapter 5 - Rise of the Pirate God,game,1,1,16,10.03.09,705,360.0
+295,Puzzle Agent,game,1,1,21,10.02.10,608880,129.0
+296,Poker Night at the Inventory,game,1,1,12,22.11.2010,2427880,1486
+297,Back to the Future: The Game,game,1,1,21,23.12.2010,1236510,569
+298,COIL,demo,1,1,16,19.03.2009,197,0
+299,Iron Grip: Warlord,game,1,1,18,5.12.2008,208593,1635
+300,Iron Grip Warlord Demo,demo,1,1,21,6.05.2010,439,0
+301,Nancy Drew®: Danger by Design,game,1,1,16,10.10.2009,447,175.0
+302,Nancy Drew®: Last Train to Blue Moon Canyon,game,1,1,21,10.10.2009,65880,175.0
+303,Nancy Drew®: The Haunted Carousel,game,1,1,16,10.10.2009,63597,175.0
+304,Nancy Drew®: Curse of Blackmoor Manor,game,1,1,12,10.10.2009,94000,175.0
+305,Nancy Drew®: Danger on Deception Island,game,1,1,21,10.10.2009,71896,175.0
+306,Nancy Drew®: Ghost Dogs of Moon Lake,game,1,1,18,10.10.2009,38332,175.0
+307,Nancy Drew®: Legend of the Crystal Skull,game,1,1,21,17.07.2009,88704,175.0
+308,"Nancy Drew® Dossier: Lights, Camera, Curses!",game,1,1,21,17.07.2009,761,175.0
+309,Nancy Drew®: Secret of the Old Clock,game,1,1,21,10.10.2009,45504,175.0
+310,Nancy Drew®: Secret of the Scarlet Hand,game,1,1,14,10.10.2009,92781,175.0
+311,Nancy Drew®: The Creature of Kapu Cave,game,1,1,12,17.07.2009,758,175.0
+312,Nancy Drew®: The Haunting of Castle Malloy,game,1,1,12,17.07.2009,73304,175.0
+313,Nancy Drew®: The Phantom of Venice,game,1,1,14,17.07.2009,117056,175.0
+314,Nancy Drew®: The White Wolf of Icicle Creek,game,1,1,16,17.07.2009,86360,175.0
+315,Nancy Drew®: Legend of the Crystal Skull Demo,demo,1,1,16,3.07.2009,777,0
+316,Nancy Drew®: The Creature of Kapu Cave Demo,demo,1,1,14,3.07.2009,473,0
+317,Nancy Drew®: The Phantom of Venice Demo,demo,1,1,21,3.07.2009,482,0
+318,Nancy Drew®: The White Wolf of Icicle Creek Demo,demo,1,1,14,3.07.2009,873,0
+319,Nancy Drew®: Ransom of the Seven Ships,game,1,1,12,21.07.2009,868,1407
+320,Nancy Drew®: Ransom of the Seven Ships Demo,demo,1,1,21,21.07.2009,497,0
+321,Raycatcher Demo,demo,1,1,16,14.04.2009,488,0
+322,LUXOR: Mah Jong,game,1,1,14,13.07.2009,822,199.0
+323,Chainz 2: Relinked,game,1,1,18,13.07.2009,221,199.0
+324,Midnight Mysteries,game,1,1,16,28.09.2009,233,199.0
+325,Everyday Genius: SquareLogic,game,1,1,12,21.10.2009,331570,129.0
+326,Zombie Bowl-o-Rama,game,1,1,21,15.10.2009,68740,199.0
+327,Metal Drift,game,1,1,14,22.10.2009,197,249.0
+328,Metal Drift Demo,demo,1,1,16,22.10.2009,488,0
+329,Delta Force Xtreme 2,game,1,1,18,18.06.2009,115596,419.0
+330,Delta Force,game,1,1,18,18.06.2009,297472,129.0
+331,Delta Force 2,game,1,1,18,18.06.2009,330902,129.0
+332,Delta Force Land Warrior,game,1,1,12,18.06.2009,41912,249.0
+333,Delta Force: Task Force Dagger,game,1,1,18,18.06.2009,76884,249.0
+334,Delta Force: Xtreme,game,1,1,14,18.06.2009,44312,419.0
+335,Delta Force: Black Hawk Down,game,1,1,18,18.06.2009,409218,349.0
+336,Delta Force — Black Hawk Down: Team Sabre,game,1001,1,14,18.06.2009,394020,249.0
+337,Armored Fist 3,game,1,1,14,18.06.2009,528,249.0
+338,F-16 Multirole Fighter,game,1,1,12,18.06.2009,286,249.0
+339,F-22 Lightning 3,game,1,1,14,18.06.2009,69255,249.0
+340,MiG-29 Fulcrum,game,1,1,18,18.06.2009,818,249.0
+341,Comanche 4,game,1,1,16,18.06.2009,150232,249.0
+342,Tachyon: The Fringe,game,1,1,21,18.06.2009,98667,249.0
+343,Joint Operations: Combined Arms Gold,game,1,1,12,29.09.2009,145270,419.0
+344,Lord of the Rings: War in the North,game,1,1,16,1.11.2011,2034060,396
+345,Chessmaster® Challenge,advertising,237,237,12,12.08.2009,350,626
+346,Chocolatier®: Decadence by Design™,game,1,237,16,12.08.2009,78050,199.0
+347,Cooking Dash®,game,1,237,18,12.08.2009,359,199.0
+348,Diaper Dash®,game,1,237,18,12.08.2009,926,199.0
+349,Diner Dash:® Hometown Hero™,game,237,237,18,12.08.2009,84524,199.0
+350,Emerald City Confidential™,game,1,237,21,12.08.2009,357,199.0
+351,Wandering Willows™,game,237,237,18,12.08.2009,582,1481
+352,Wedding Dash® 2: Rings Around the World,game,1,237,21,12.08.2009,930,199.0
+353,Zenerchi®,game,1,237,14,12.08.2009,423,199.0
+354,DinerTown Tycoon,game,237,237,16,30.09.2009,319,199.0
+355,DinerTown Detective Agency™,game,1,237,12,6.05.2010,903,129.0
+356,The Nightshift Code™,game,237,237,21,6.05.2010,925,129.0
+357,Nightshift Legacy: The Jaguar's Eye™,game,237,237,14,6.05.2010,976,129.0
+358,Fitness Dash™,game,1,237,21,6.05.2010,804,129.0
+359,Mahjong Roadshow™,game,237,237,16,6.05.2010,773,129.0
+360,TriJinx: A Kristine Kross Mystery™,game,237,237,12,6.05.2010,834,129.0
+361,Valerie Porter and the Scarlet Scandal™,game,237,237,14,6.05.2010,520,129.0
+362,Gemini Lost™,game,237,237,12,6.05.2010,468,129.0
+363,"Time Gentlemen, Please! and Ben There, Dan That! Special Edition  Double Pack",game,1,1,14,25.08.2009,252636,99.0
+364,"Time Gentlemen, Please! Demo",demo,1,1,21,25.08.2009,193,0
+365,"Time Gentlemen, Please! and Ben There, Dan That! Special Edition  Double Pack",game,1,1,21,25.08.2009,126096,99.0
+366,Magnetis Demo,demo,1,1,21,7.01.2010,909,0
+367,Windosill,game,1,1,12,25.09.2009,314869,82.0
+368,Darkest of Days Demo,demo,1,1,16,11.08.2009,528,0
+369,QuantZ Demo,demo,1,1,21,3.09.2009,507,0
+370,Board Game Classics Collection,advertising,1,1,12,24.08.2009,241,659
+371,Jewel Quest Pack,game,1,1,18,24.08.2009,913,419.0
+372,Jewel Quest Pack,game,1,1,18,24.08.2009,449,419.0
+373,Jewel Quest Pack,game,1,1,16,24.08.2009,289,419.0
+374,Jewel Quest Pack,game,1,1,12,24.08.2009,241,419.0
+375,Mahjong Quest Collection,game,1,1,16,24.08.2009,400,249.0
+376,Mahjong Quest Collection,game,1,1,21,24.08.2009,567,249.0
+377,Mahjong Quest Collection,game,1,1,18,24.08.2009,514,249.0
+378,Risk,advertising,1,1,16,24.08.2009,904,418
+379,Risk II,advertising,1,1,12,24.08.2009,887,805
+380,Coconut Queen,game,1,1,18,17.12.2009,835,249.0
+381,Build-A-Lot,game,1,1,12,17.12.2009,386,249.0
+382,Build-A-Lot 2: Town of the Year,game,1,1,12,17.12.2009,780,249.0
+383,Build-A-Lot 3: Passport to Europe,game,1,1,18,17.12.2009,612,249.0
+384,Build-A-Lot 4: Power Source,game,1,1,16,17.12.2009,881,249.0
+385,Farm Frenzy,game,28,1,18,15.02.2010,305,129.0
+386,Farm Frenzy 2,game,28,1,12,15.02.2010,410,129.0
+387,Farm Frenzy: Pizza Party,game,28,1,14,15.02.2010,885,129.0
+388,Farm Frenzy 3,game,28,1,14,15.02.2010,863,249.0
+389,Farm Frenzy 3: American Pie,game,28,1,21,15.02.2010,373,249.0
+390,Cradle of Rome,game,1,1,16,20.02.2010,823,249.0
+391,Cradle of Persia,game,1,1,18,20.02.2010,988,249.0
+392,Romance of Rome,game,1,1,14,20.02.2010,513,249.0
+393,Raven Squad,advertising,1,1,21,26.08.2009,383,1239
+394,Roogoo,game,1,1,21,17.12.2009,48741,82.0
+395,Hotel Giant 2,game,102,1,12,27.01.2010,203732,189.0
+396,Horrid Henry,advertising,1,1,21,10.08.2010,385,1234
+397,Fallout: A Post Nuclear Role Playing Game,game,1,1023,12,19.08.2009,2700103,259
+398,Fallout 2: A Post Nuclear Role Playing Game,game,53,1023,21,19.08.2009,8580992,1674
+399,Fallout Tactics: Brotherhood of Steel,game,1,1023,12,19.08.2009,1228375,1521
+400,Kingpin — Life of Crime,game,1,1,21,19.08.2009,243183,249.0
+401,Sacrifice,game,291,1,16,19.08.2009,492014,249.0
+402,MDK,game,291,1,21,17.09.2009,175684,249.0
+403,MDK 2,game,50,1,12,17.09.2009,86193,249.0
+404,Earthworm Jim 2,game,291,1,18,4.11.2009,163,419.0
+405,Top Gun,advertising,1,1,14,13.09.2010,775,1002
+406,Faerie Solitaire,game,1,1,14,17.09.2010,1167740,360.0
+407,Toki Tori,game,1017,1017,16,28.01.2010,1000350,129.0
+408,Toki Tori Demo,demo,1017,1017,18,15.06.2010,867,0
+409,RUSH,game,1017,1017,14,3.12.2010,515258,30.0
+410,RUSH Demo,demo,1017,1017,16,3.12.2010,578,0
+411,EDGE,game,1017,1017,14,11.08.2011,491952,169.0
+412,EDGE Demo,demo,1017,1017,14,11.08.2011,685,0
+413,CrimeCraft,advertising,1,1,18,25.08.2009,272,477
+414,Rhythm Zone - Demo,demo,1,1,21,23.09.2010,279,0
+415,Moonbase Alpha,game,1,1,21,6.07.2010,119438,0
+416,Gyromancer Demo,demo,1,312,21,18.11.2009,830,0
+417,RIFT,game,1,1,21,1.03.2011,502866,0
+418,Torchlight,game,279,279,18,"Oct 27, 2009",2799247,14.99
+419,The Kings' Crusade,game,1,1013,12,8.10.2010,278,199.0
+420,Elven Legacy: Magic,game,1,1,12,3.12.2009,539,99.0
+421,Elven Legacy: Siege,game,1,1,16,17.11.2009,720,99.0
+422,Elven Legacy: Ranger,game,1,1,14,20.10.2009,614,99.0
+423,Victoria II,game,228,1013,21,30.08.2010,8753038,349.0
+424,Victoria I Complete,game,228,1013,16,20.08.2010,95025,199.0
+425,Sword of the Stars II: Enhanced Edition,game,1,1013,18,30.11.2012,110802,349.0
+426,World of Zoo,game,1,1021,18,30.10.2009,62181,249.0
+427,Metro 2033,game,12,1,12,16.03.2010,2602608,1257
+428,The Haunted: Hells Reach,game,1,1,16,24.10.2011,268920,199.0
+429,M.U.D. TV,game,1,164,14,19.04.2010,30976,599.0
+430,Nancy Drew®: Warnings at Waverly Academy,game,1,1,16,13.01.2010,140385,175.0
+431,2XL Supercross,advertising,1,1,16,6.04.2010,881,1881
+432,Super Laser  Racer,game,1,1,14,18.02.2010,162,99.0
+433,Super Laser Racer Demo,demo,1,1,12,17.12.2010,518,0
+434,GTR - FIA GT Racing Game,game,1,1,14,25.09.2012,476,169.0
+435,STCC The Game 2 – Expansion Pack for RACE 07,dlc,1,1,18,8.04.2011,994,99.0
+436,GT Power Pack – Expansion Pack for RACE 07,dlc,1,1,12,21.04.2011,279,79.0
+437,RETRO – Expansion Pack for RACE 07,dlc,1,1,14,23.06.2011,197,99.0
+438,WTCC 2010 – Expansion Pack for RACE 07,dlc,1,1,16,20.05.2011,237,89.0
+439,RACE Injection,game,1,1,21,18.11.2011,351,289.0
+440,GT Legends,game,1,1,16,28.11.2012,41650,189.0
+441,Tom Clancy's H.A.W.X.® 2,advertising,369,369,21,22.11.2010,248032,638
+442,Might & Magic® Heroes® VI Demo,demo,1,369,12,28.09.2011,194,0
+443,Mount & Blade: Warband,game,1,1,16,31.03.2010,101312210,549.0
+444,Mount & Blade: Warband Demo,demo,1,1,12,30.08.2010,672,0
+445,Mount & Blade: With Fire & Sword,game,1,1,16,3.05.2011,8618376,249.0
+446,Ship Simulator Extremes,game,1,1013,21,27.08.2010,630840,349.0
+447,Ship Simulator Extremes - Demo,demo,1,1013,18,21.10.2010,295,0
+448,Greed Corp,game,1,1,18,10.12.2010,329586,249.0
+449,Hotel Dash™ Suite Success™,game,237,237,18,6.05.2010,365,129.0
+450,Commander: Conquest of the Americas,game,1,1,14,30.07.2010,50419,199.0
+451,Commander: Conquest of the Americas - Colonial Navy,dlc,1,1,21,21.09.2010,390,99.0
+452,Woody Two-Legs: Attack of the Zombie Pirates,game,1,1,14,2.11.2010,443,99.0
+453,Pirates of Black Cove,game,1,1,12,2.08.2011,55154,199.0
+454,Pirates of Black Cove Demo,demo,1,1013,21,1.08.2011,772,0
+455,Magic: the Gathering - Duels of the Planeswalkers Demo,demo,1,1,21,15.06.2010,216,0
+456,Magic: The Gathering - Duels of the Planeswalkers 2012,game,1,1,16,15.06.2011,472680,1832
+457,Magic the Gathering: Duels of the Planeswalkers 2012 Demo,demo,1,1,16,15.06.2011,584,0
+458,Beat Hazard,game,1,1,12,15.04.2010,2885538,199.0
+459,Beat Hazard Demo,demo,1,1,18,21.04.2010,991,0
+460,Stargate Resistance,advertising,1,1,18,15.02.2010,655,1429
+461,Flight of the Icarus,game,1,1,18,12.05.2010,87246,129.0
+462,CreaVures,game,1,1,18,23.02.2011,58344,129.0
+463,Plain Sight,game,1,1,18,5.04.2010,82834,199.0
+464,Nimbus,game,1,1,21,25.10.2010,121040,199.0
+465,Nimbus Demo,demo,1,1,21,2.12.2010,887,0
+466,NyxQuest: Kindred Spirits,game,1,1,21,27.09.2010,495,79.0
+467,NyxQuest Demo,demo,1,1,12,27.09.2010,353,0
+468,Puzzle Dimension,game,1,1,21,21.06.2010,79794,59.0
+469,Puzzle Dimension Demo,demo,1,1,21,24.06.2010,725,0
+470,Amnesia: The Dark Descent,game,115,115,12,8.09.2010,12034446,419.0
+471,Batman: Arkham City,game,276,1,14,15.11.2011,1187304,871
+472,Tropico 3: Absolute Power,dlc,135,164,14,17.05.2010,252824,599.0
+473,Disciples III - Renaissance Steam Special Edition,demo,1,164,16,20.07.2010,628,0
+474,Patrician IV,game,1,164,14,17.09.2010,179080,849.0
+475,Broken Sword: Director's Cut,game,1,1,18,2.09.2010,795434,99.0
+476,Dungeons,game,1,164,12,4.02.2011,325960,599.0
+477,The First Templar - Steam Special Edition,game,135,164,14,12.05.2011,447408,599.0
+478,Tropico 4,game,135,164,16,1.09.2011,1976528,849.0
+479,Who's That Flying?!,game,1,164,12,31.01.2011,125118,359.0
+480,DUNGEONS - Steam Special Edition Demo,demo,1,164,21,14.02.2011,684,0
+481,Patrician IV: Rise of a Dynasty,dlc,1,164,12,11.04.2011,282634,599.0
+482,Jagged Alliance - Back in Action,game,1,346,16,8.02.2012,828496,419.0
+483,Tropico 4 Demo,demo,135,164,14,9.08.2011,635,0
+484,Doc Clock: The Toasted Sandwich of Time,game,1,1,12,15.10.2010,523,99.0
+485,Jolly Rover,game,1,1,18,7.06.2010,184965,249.0
+486,Jolly Rover Demo,demo,1,1,18,7.06.2010,273,0
+487,MacGuffin's Curse,game,1,1,21,19.04.2012,343,249.0
+488,Turba,game,1,1,16,19.04.2012,640,99.0
+489,Blood Bowl - Legendary Edition,game,79,79,16,28.10.2010,335340,449.0
+490,A Game of Thrones - Genesis,game,79,1,12,28.09.2011,207337,399.0
+491,Runaway: A Twist of Fate,game,1,1022,12,21.04.2011,64539,209.0
+492,The Next BIG Thing,game,1,1022,16,21.04.2011,447534,209.0
+493,The Next BIG Thing Demo,demo,1,1022,18,26.04.2011,321,0
+494,Wargame: European Escalation,game,103,103,12,22.02.2012,1426000,629.0
+495,ProtoGalaxy,game,1,1,18,6.10.2010,616,0
+496,ProtoGalaxy Demo,demo,1,1,14,17.11.2010,424,0
+497,Power of Defense,game,1,1,18,4.08.2010,854,199.0
+498,Numen: Contest of Heroes,game,1,1,12,3.06.2010,49518,149.0
+499,Numen Demo,demo,1,1,21,6.08.2010,191,0
+500,Fractal: Make Blooms Not War,game,1,1,12,29.11.2011,744,169.0
+501,size,demo,162,571,14,19.11.1996,16035,52.84
+502,person,game,476,363,21,04.04.2007,46454,42.71
+503,middle,modmovie,314,303,12,07.07.1985,42150,25.35
+504,allow,advertising,455,479,14,19.09.1980,37851,278.13
+505,fine,demo,869,90,21,03.10.2014,94927,93.55
+506,better,demo,744,144,14,27.08.2021,4880,255.45
+507,throw,modmovie,770,427,14,13.08.1980,79089,409.68
+508,decide,advertising,852,280,21,20.04.2014,44939,19.76
+509,hotel,advertising,1,130,12,11.05.1973,54308,259.69
+510,picture,advertising,872,195,14,16.06.1988,82061,6.61
+511,heart,game,478,395,12,04.09.1974,11445,45.04
+512,hold,game,605,285,14,30.12.1986,74269,264.51
+513,minute,demo,411,793,21,02.10.2020,29373,94.33
+514,crime,modmovie,154,237,21,11.10.1986,53899,371.8
+515,could,game,75,191,12,08.05.1979,81078,21.48
+516,lot,advertising,789,674,18,02.02.1987,90187,355.98
+517,could,demo,136,233,21,02.04.2000,93589,464.53
+518,industry,demo,156,807,14,30.05.2017,6511,22.36
+519,voice,modmovie,314,147,18,03.12.2010,20134,473.27
+520,against,modmovie,216,531,21,30.08.2019,40851,357.27
+521,fact,advertising,400,149,14,25.12.1988,24716,120.29
+522,strategy,modmovie,690,65,12,25.09.1974,90851,97.88
+523,hotel,advertising,256,452,12,11.02.2006,87705,64.76
+524,miss,advertising,1023,709,12,13.12.2012,41976,331.68
+525,rich,modmovie,86,549,18,03.08.2009,63455,268.72
+526,current,game,24,98,16,03.06.2004,79139,421.71
+527,dream,demo,172,66,21,10.07.2018,57957,41.2
+528,six,modmovie,632,185,21,11.03.1995,13489,332.53
+529,whatever,demo,408,756,18,29.01.1989,53645,309.76
+530,debate,advertising,1021,369,16,10.05.1986,35049,366.78
+531,attorney,advertising,403,457,16,23.08.1980,72747,237.31
+532,business,modmovie,571,421,12,06.11.1993,29859,254.02
+533,early,advertising,478,489,16,17.06.1973,98737,89.2
+534,course,advertising,408,662,12,29.02.2000,71568,45.02
+535,behind,modmovie,52,413,12,22.02.2010,78657,378.91
+536,before,modmovie,458,530,18,10.01.2013,49243,223.38
+537,contain,demo,606,4,16,13.05.1990,40750,144.28
+538,which,demo,490,146,12,01.11.2013,81509,77.88
+539,treat,modmovie,485,369,18,26.05.1999,5518,476.38
+540,loss,demo,428,301,21,09.11.1974,9650,153.25
+541,ten,advertising,477,562,18,30.11.1990,50027,84.01
+542,rise,game,542,992,16,21.12.1977,37260,97.95
+543,suddenly,game,442,37,16,18.11.1990,24562,288.32
+544,thousand,game,681,785,12,26.10.1994,50397,464.37
+545,or,demo,10,380,18,23.04.2011,12091,341.75
+546,loss,demo,991,422,12,27.05.1983,97585,5.45
+547,born,game,416,112,12,15.08.1970,86147,366.04
+548,organization,game,453,341,21,22.06.2016,60575,273.75
+549,could,advertising,296,448,21,15.12.1990,31822,36.7
+550,us,modmovie,833,498,12,29.07.1987,29434,169.76
+551,film,game,572,451,16,05.05.2002,39412,497.39
+552,fill,demo,239,636,18,27.11.1975,64433,300.96
+553,work,demo,84,442,14,19.09.1996,19961,56.9
+554,sea,modmovie,581,476,21,25.01.2015,3268,25.75
+555,exactly,advertising,690,678,18,15.12.2013,80290,187.11
+556,as,modmovie,441,776,21,19.05.1978,54726,193.24
+557,feeling,game,734,19,18,09.04.1998,96870,456.34
+558,five,demo,455,919,21,26.10.1971,37423,4.41
+559,these,demo,430,286,18,11.02.2017,84646,196.53
+560,important,advertising,472,900,18,19.11.1970,83064,273.5
+561,doctor,modmovie,114,407,12,28.06.2018,26007,337.69
+562,successful,demo,460,575,12,24.02.1990,28124,415.42
+563,camera,advertising,392,308,16,09.02.1981,24394,135.1
+564,culture,game,588,438,12,26.03.1994,22663,395.43
+565,thousand,demo,299,389,12,06.06.2020,21022,207.88
+566,data,advertising,729,284,14,15.01.1970,40422,272.42
+567,idea,game,68,531,18,26.02.2001,42873,23.88
+568,action,game,119,507,16,06.12.2003,41274,47.62
+569,throw,game,296,484,21,27.02.2017,22150,295.62
+570,authority,modmovie,113,505,14,27.08.1994,81652,425.06
+571,subject,modmovie,157,963,12,18.12.2016,31060,245.86
+572,a,advertising,297,463,18,12.04.1990,37194,38.4
+573,law,demo,35,168,12,23.07.2013,4025,98.61
+574,expert,game,193,727,14,30.09.1987,23456,326.65
+575,score,game,149,99,18,25.10.1980,96540,44.4
+576,interesting,game,63,555,12,14.08.1989,47631,155.56
+577,easy,demo,422,502,16,26.09.2002,82409,381.13
+578,amount,advertising,649,486,16,07.06.2016,926,265.06
+579,always,game,276,134,14,21.02.2009,9994,354.07
+580,close,demo,302,643,18,09.06.2002,3004,2.53
+581,production,game,498,477,18,23.12.2013,14328,78.79
+582,hand,modmovie,75,533,12,04.06.1993,53865,267.81
+583,sister,demo,690,348,16,17.08.1994,73651,397.49
+584,population,modmovie,308,335,18,07.01.1991,86690,237.8
+585,themselves,game,374,931,12,06.10.2010,45610,406.93
+586,fall,advertising,335,623,14,26.05.2011,67919,340.06
+587,more,demo,392,503,21,13.01.2012,88347,300.93
+588,learn,demo,118,513,18,29.12.1974,10876,128.54
+589,show,advertising,756,435,21,19.04.2009,40028,209.8
+590,current,game,217,355,12,19.10.2017,95114,305.05
+591,draw,demo,846,284,18,02.10.2013,76640,139.01
+592,miss,advertising,233,805,14,09.06.2011,83521,20.71
+593,outside,game,742,422,18,15.09.2004,98455,291.82
+594,blood,modmovie,595,472,12,17.07.1973,69474,400.31
+595,despite,game,612,684,14,23.10.2007,77521,33.77
+596,and,modmovie,972,530,14,07.06.2007,69842,444.42
+597,seem,demo,416,456,14,13.02.1992,43343,395.74
+598,writer,game,240,277,21,07.02.1997,97824,490.99
+599,start,demo,781,123,16,02.10.1975,70219,52.8
+600,occur,advertising,614,99,21,08.11.2009,44603,444.7
+601,right,demo,414,231,16,29.08.1971,64232,60.15
+602,total,demo,176,578,12,30.12.2002,3305,71.71
+603,could,modmovie,571,881,12,21.12.1991,17424,105.47
+604,life,game,500,346,16,16.06.1987,8801,50.74
+605,fire,advertising,453,422,14,27.06.2006,48814,295.08
+606,many,demo,445,455,14,15.05.2022,81834,349.39
+607,position,game,694,434,12,03.11.1985,63815,110.13
+608,buy,game,871,517,16,26.08.1990,95342,244.45
+609,nor,game,650,571,21,23.10.1990,20305,227.6
+610,employee,advertising,232,645,18,15.04.2006,29610,195.8
+611,stop,game,392,250,18,21.11.2009,26326,392.88
+612,participant,game,511,718,12,21.12.2002,82875,11.9
+613,meeting,advertising,803,704,18,28.11.1971,64881,408.27
+614,only,demo,350,448,18,31.10.1992,73530,124.76
+615,above,demo,205,360,18,08.08.1971,5284,122.16
+616,pay,game,355,204,16,27.08.1971,20057,113.91
+617,respond,demo,172,801,18,06.12.1982,16510,263.54
+618,quite,advertising,526,216,18,12.10.2014,1208,453.91
+619,interesting,modmovie,193,269,16,29.11.1995,15072,65.52
+620,society,advertising,588,729,18,25.11.2018,88255,221.65
+621,only,demo,477,456,18,28.10.1993,98882,34.8
+622,another,game,444,495,18,29.08.1993,62030,124.98
+623,visit,demo,477,184,14,31.07.2014,39365,201.2
+624,gun,demo,338,51,21,07.07.1985,57785,343.71
+625,raise,advertising,244,617,16,20.03.1987,93697,419.32
+626,purpose,advertising,480,163,12,11.08.2018,75159,315.74
+627,political,game,770,68,16,22.06.2011,53932,316.83
+628,small,advertising,469,477,16,13.02.1999,22528,99.42
+629,write,modmovie,191,1018,16,13.11.1970,68002,150.07
+630,put,game,690,40,21,08.03.2022,23506,163.02
+631,down,game,636,37,12,01.03.1991,23002,17.68
+632,outside,modmovie,320,294,18,22.04.2001,47103,61.15
+633,environmental,game,445,111,16,01.09.1980,50057,350.16
+634,pay,advertising,616,212,16,30.08.1996,31347,144.67
+635,deal,modmovie,233,539,21,22.12.2018,38534,164.3
+636,accept,modmovie,498,486,12,08.06.2002,67809,472.24
+637,charge,modmovie,361,343,21,04.02.2021,35415,192.65
+638,since,game,551,422,21,23.01.1985,61912,226.07
+639,behavior,advertising,456,677,18,30.08.1995,97438,295.85
+640,bit,game,20,335,21,04.03.2017,23849,218.21
+641,bill,modmovie,12,78,16,11.05.2011,24810,128.7
+642,happen,game,780,395,18,06.01.2006,96351,274.16
+643,order,demo,464,495,12,24.04.2008,42490,441.99
+644,area,game,836,809,16,20.06.1976,96761,376.82
+645,strategy,demo,433,516,16,29.05.2014,44273,73.25
+646,teacher,advertising,451,160,16,28.02.2008,80812,239.35
+647,challenge,demo,455,421,12,15.12.2004,50124,96.04
+648,dinner,modmovie,422,738,21,13.07.2020,23993,321.51
+649,stock,modmovie,52,211,16,06.04.1992,13966,376.08
+650,citizen,game,153,248,16,22.12.2021,80840,471.72
+651,series,demo,357,599,18,13.10.1982,27358,477.27
+652,public,advertising,162,579,21,22.01.1994,96456,127.7
+653,kitchen,advertising,422,333,18,02.06.1983,71848,498.78
+654,yourself,modmovie,501,456,16,07.02.2003,95544,240.35
+655,now,modmovie,762,125,21,28.10.1978,5298,458.61
+656,perform,game,572,1021,18,22.08.2010,70750,24.88
+657,tend,modmovie,10,240,14,21.06.1980,22972,46.84
+658,resource,modmovie,571,530,14,16.09.2019,50031,460.62
+659,order,advertising,943,478,18,21.07.2005,41924,152.39
+660,firm,demo,555,571,14,04.10.2013,64526,189.56
+661,remain,advertising,249,358,14,29.06.2004,27006,248.22
+662,chance,demo,486,757,14,25.09.2012,42336,32.77
+663,care,modmovie,636,358,14,28.11.2018,78771,302.3
+664,dark,advertising,166,413,18,26.12.1988,54805,414.39
+665,minute,demo,376,656,14,09.10.2019,82301,259.05
+666,history,game,4,520,21,14.02.1979,48839,52.13
+667,director,advertising,739,472,21,10.02.1982,27812,311.49
+668,behind,modmovie,725,983,21,28.08.1991,74665,302.06
+669,others,advertising,108,349,14,17.01.1971,86064,91.32
+670,have,game,888,585,12,20.09.1971,46223,298.42
+671,hear,game,803,787,14,21.08.1981,22163,88.06
+672,current,demo,582,883,21,07.04.1996,25149,260.42
+673,how,modmovie,304,176,18,25.03.2018,8768,169.3
+674,threat,game,492,453,18,02.01.2013,49133,107.89
+675,development,demo,717,300,14,23.08.1994,2156,329.75
+676,thousand,demo,605,226,16,14.05.1980,43607,318.07
+677,believe,demo,285,170,16,10.11.2020,16545,435.42
+678,your,game,59,453,18,12.01.1984,72252,381.57
+679,coach,demo,712,339,18,21.05.1994,66919,108.03
+680,without,advertising,348,448,12,18.12.2019,17144,91.79
+681,future,modmovie,287,649,18,17.11.1978,76670,151.32
+682,itself,modmovie,599,394,21,13.04.1973,74074,9.83
+683,still,modmovie,502,16,21,01.12.1987,96820,41.62
+684,vote,modmovie,200,424,21,29.01.1982,45991,371.28
+685,well,advertising,349,421,12,09.10.2008,96464,156.88
+686,send,advertising,563,632,21,30.09.1981,5287,128.69
+687,more,game,408,833,12,13.05.1981,42747,300.9
+688,candidate,modmovie,425,149,21,06.09.1992,99386,167.94
+689,often,advertising,760,112,16,25.03.1998,26091,212.74
+690,bank,advertising,160,861,14,15.08.1977,89787,309.89
+691,shake,modmovie,599,528,21,05.02.2021,4158,47.49
+692,stage,demo,878,571,14,23.10.2008,22458,226.15
+693,here,modmovie,523,414,12,07.02.1978,33259,291.97
+694,window,advertising,448,241,14,15.08.1990,48966,161.99
+695,gun,demo,344,987,16,31.05.2000,22855,133.78
+696,staff,modmovie,411,178,18,22.06.1987,28689,256.2
+697,help,advertising,46,512,14,14.10.2002,64052,49.55
+698,lose,demo,108,483,21,15.07.1975,57907,337.09
+699,beautiful,modmovie,362,498,18,18.12.1995,40982,123.6
+700,voice,demo,983,50,14,17.02.1995,85153,170.86
+701,force,game,411,520,16,08.04.1983,9357,178.07
+702,perform,advertising,492,462,14,14.07.2007,63771,154.23
+703,time,advertising,763,16,18,12.09.1998,79922,334.56
+704,short,demo,416,502,14,04.04.1984,67553,408.44
+705,sense,demo,363,460,18,01.10.2014,72099,450.33
+706,resource,game,431,26,16,04.09.1999,49235,102.3
+707,future,demo,301,447,18,10.06.1997,42549,317.04
+708,begin,demo,246,448,12,06.10.1982,98479,178.55
+709,specific,demo,349,273,21,04.12.2010,74533,286.97
+710,page,modmovie,945,987,18,07.04.1999,30120,340.83
+711,drug,demo,514,688,12,13.07.1983,98193,230.21
+712,experience,game,649,63,14,16.03.1981,74429,374.72
+713,red,advertising,484,575,12,24.05.1990,21457,451.46
+714,general,game,442,764,21,13.06.2008,74181,308.29
+715,peace,game,745,619,18,20.01.1988,26302,80.2
+716,just,advertising,790,601,21,08.03.2006,94830,49.12
+717,agency,game,557,745,12,24.09.2022,16612,418.97
+718,recognize,advertising,480,416,21,03.10.2005,95159,69.13
+719,bring,game,222,610,14,15.11.1984,58600,23.85
+720,American,modmovie,401,568,14,26.11.1974,18968,60.33
+721,no,advertising,529,823,18,23.07.1974,59827,493.68
+722,consider,game,212,437,14,06.08.1994,34455,250.43
+723,drop,game,244,601,12,05.08.1975,14916,339.94
+724,raise,game,262,523,21,19.03.2000,2923,50.71
+725,miss,advertising,460,374,18,13.05.2000,21643,305.07
+726,guy,game,100,456,18,09.03.1971,76919,1.76
+727,term,game,456,117,16,01.12.1980,20308,356.14
+728,across,game,74,460,21,21.05.1973,52793,98.8
+729,method,game,375,232,14,17.02.2010,68208,205.59
+730,dinner,advertising,678,287,14,27.10.2010,21948,28.63
+731,with,modmovie,15,187,18,22.04.1972,37378,415.46
+732,alone,advertising,335,460,16,21.09.1989,48244,235.82
+733,another,modmovie,315,183,18,03.07.1992,31239,437.15
+734,five,advertising,643,670,21,25.06.2017,91293,358.58
+735,they,modmovie,613,760,16,03.03.2011,48472,85.74
+736,nation,demo,533,33,16,31.05.2012,28508,430.41
+737,someone,advertising,520,39,12,19.10.2009,72641,404.72
+738,budget,advertising,744,116,21,09.07.1994,98450,430.19
+739,best,game,36,799,16,12.02.1995,11885,148.75
+740,effort,modmovie,700,304,12,26.10.1978,98997,449.7
+741,modern,demo,414,274,18,12.01.2022,74257,430.82
+742,administration,game,499,422,21,29.05.1987,77330,316.81
+743,expect,demo,391,271,16,26.12.2018,1942,228.13
+744,purpose,advertising,134,879,16,28.11.2006,38338,353.41
+745,foreign,modmovie,729,563,14,12.11.1987,97237,374.06
+746,affect,advertising,63,408,16,20.08.2004,98264,283.55
+747,call,game,352,889,21,12.01.2013,92082,398.64
+748,agency,advertising,253,497,18,28.05.2006,23442,108.19
+749,book,demo,219,632,21,11.12.1973,52615,319.18
+750,nothing,game,667,571,16,05.06.2016,96179,3.14
+751,economy,game,550,507,18,04.08.2000,64619,152.51
+752,idea,demo,748,84,18,09.03.1997,23269,467.38
+753,friend,modmovie,78,942,21,01.12.2001,72131,429.43
+754,forget,demo,481,448,16,01.06.1984,2741,255.42
+755,determine,demo,174,551,12,04.08.2020,35156,182.83
+756,smile,advertising,35,453,18,08.02.1985,35955,178.19
+757,tell,game,656,223,18,10.03.1978,6346,112.58
+758,themselves,modmovie,480,959,14,13.08.2009,70753,466.98
+759,thought,advertising,111,858,18,25.09.1991,55138,469.12
+760,attack,demo,319,582,18,02.06.1994,36765,308.84
+761,seek,game,255,407,16,12.10.1997,67051,91.38
+762,arrive,demo,445,411,12,04.10.2015,76712,467.15
+763,start,demo,182,448,21,22.05.1998,813,122.53
+764,first,modmovie,75,379,12,26.10.1980,94682,498.67
+765,box,demo,668,65,18,19.09.1985,85420,279.82
+766,second,demo,566,408,21,17.09.1991,52049,116.02
+767,follow,demo,448,56,14,13.12.1984,17583,184.87
+768,police,advertising,161,1005,18,03.06.1988,20192,255.62
+769,once,modmovie,275,456,14,09.12.1979,96333,465.84
+770,price,demo,587,156,16,03.11.1972,97851,321.79
+771,method,modmovie,223,416,18,12.08.2022,55713,203.37
+772,big,demo,495,1003,21,02.08.1973,17171,200.54
+773,themselves,advertising,743,460,21,06.10.2006,67558,37.82
+774,center,modmovie,537,205,21,18.08.1992,47040,408.07
+775,state,demo,864,738,16,16.09.2007,39322,361.93
+776,thought,demo,154,643,18,16.07.2009,62652,48.51
+777,book,game,148,27,12,01.05.1971,94869,16.68
+778,tend,advertising,533,717,16,19.06.2012,18718,115.49
+779,town,modmovie,520,706,16,25.07.2007,11689,236.35
+780,Republican,demo,843,479,14,12.01.1984,52504,382.52
+781,draw,modmovie,791,308,12,29.08.1996,56832,440.07
+782,adult,advertising,406,587,14,18.08.2009,24463,169.17
+783,focus,demo,385,265,12,25.12.1986,62064,105.58
+784,summer,demo,422,415,12,16.02.1993,96565,429.8
+785,game,game,57,238,12,03.08.2021,83205,316.54
+786,increase,game,498,983,14,19.07.1994,84988,135.75
+787,themselves,demo,95,282,21,16.10.1979,72954,296.48
+788,somebody,advertising,484,53,12,10.11.1972,84041,392.35
+789,big,modmovie,425,683,21,12.01.2021,98847,319.44
+790,policy,advertising,234,906,21,24.07.1970,32625,260.14
+791,mean,game,878,732,16,17.02.2016,84366,495.39
+792,would,advertising,28,442,12,28.02.1971,78995,196.19
+793,good,demo,536,823,14,28.08.1970,86174,487.83
+794,cultural,demo,69,421,18,01.11.1975,94885,449.38
+795,including,advertising,1011,281,12,02.12.2008,24936,49.17
+796,effort,game,427,340,16,02.01.1976,46684,329.56
+797,late,game,377,519,12,26.12.1981,33197,323.8
+798,item,game,48,602,21,30.09.1990,32316,280.93
+799,happy,game,571,466,12,05.02.1996,24086,295.11
+800,too,game,662,565,18,05.04.2021,6961,131.67
+801,special,advertising,193,1,16,29.11.1981,18886,327.13
+802,question,advertising,737,95,18,30.01.2020,29194,244.03
+803,option,game,493,426,12,01.12.1984,21987,438.4
+804,enter,game,354,253,14,28.12.2013,7838,385.26
+805,ever,demo,630,1013,12,29.05.2016,55264,39.67
+806,raise,modmovie,512,102,18,06.08.2014,35905,119.08
+807,and,advertising,315,831,16,12.10.2017,56074,302.91
+808,often,demo,441,472,21,21.11.2004,31732,41.79
+809,cut,game,365,378,21,24.06.1993,52321,80.61
+810,cover,game,479,862,21,02.05.1986,1794,211.94
+811,quality,demo,456,408,18,11.11.1996,97942,205.61
+812,reach,advertising,587,240,14,24.06.2012,45414,192.61
+813,wide,demo,369,414,14,21.01.1985,7282,229.03
+814,design,advertising,272,802,12,04.03.2011,951,212.88
+815,little,advertising,836,712,18,14.09.2006,73424,83.23
+816,same,advertising,484,162,16,03.09.1996,20902,138.03
+817,agree,game,314,618,12,21.04.2019,50481,65.15
+818,interview,advertising,869,181,12,04.03.2016,10498,206.37
+819,he,advertising,498,222,16,11.11.1988,36998,114.96
+820,soon,demo,757,533,12,24.06.2009,66446,357.1
+821,consumer,modmovie,787,299,16,29.06.1992,56400,359.99
+822,near,advertising,93,456,16,27.08.1981,41193,29.72
+823,trial,demo,52,241,16,31.10.1994,44812,403.2
+824,state,game,269,215,16,20.10.1971,85154,396.71
+825,miss,demo,668,547,18,01.05.1988,96989,337.13
+826,question,demo,120,436,21,25.06.2012,58611,162.99
+827,work,modmovie,205,564,12,19.12.1977,3269,33.27
+828,none,advertising,454,477,16,12.09.2004,75205,169.47
+829,discuss,demo,493,459,14,29.01.1983,66949,321.16
+830,national,advertising,1008,502,18,28.09.2009,53479,99.58
+831,perhaps,game,419,18,14,08.04.1990,80624,262.52
+832,decision,demo,411,791,21,30.01.1978,60541,116.59
+833,wait,demo,945,311,18,08.02.1979,45872,487.46
+834,significant,modmovie,840,329,18,30.01.2017,23275,185.25
+835,American,modmovie,176,390,14,27.03.1977,76422,488.86
+836,across,demo,602,92,18,18.10.2015,84810,231.9
+837,tonight,advertising,366,750,12,12.12.1995,99371,3.96
+838,affect,modmovie,201,40,21,22.04.1977,51527,243.69
+839,strategy,modmovie,54,161,21,21.07.1988,12284,92.97
+840,cover,advertising,455,167,12,09.01.2013,72390,287.39
+841,employee,advertising,446,308,21,15.02.1988,26666,6.64
+842,check,game,228,498,14,13.07.1992,12575,373.26
+843,yet,game,689,415,21,04.01.1993,72749,62.84
+844,she,game,963,586,21,20.01.1991,10034,434.89
+845,exist,advertising,964,480,14,11.09.2012,67416,418.65
+846,serve,advertising,411,161,21,12.11.1993,49298,367.17
+847,garden,game,260,605,14,22.08.2021,23058,145.99
+848,new,modmovie,889,131,21,29.01.1990,60923,41.14
+849,that,advertising,739,670,21,29.09.1992,42092,305.96
+850,state,demo,460,743,18,03.11.2013,71191,396.24
+851,democratic,modmovie,687,328,16,21.10.1987,71748,139.5
+852,great,modmovie,408,459,21,24.05.2021,29926,432.41
+853,spend,modmovie,657,572,21,17.06.1985,99984,337.08
+854,family,modmovie,361,495,14,21.05.2019,80148,22.87
+855,here,modmovie,833,562,12,10.11.1993,98084,452.77
+856,change,modmovie,13,448,12,11.04.2001,6872,264.08
+857,join,modmovie,77,408,18,22.04.1976,52796,254.91
+858,often,game,539,1019,12,09.05.2007,91728,137.03
+859,him,modmovie,536,378,18,10.09.2006,51089,63.75
+860,western,demo,568,572,16,24.10.1984,8211,240.38
+861,discuss,demo,2,304,18,21.09.1982,62753,419.19
+862,save,advertising,546,468,18,25.11.2005,94023,371.69
+863,approach,modmovie,505,456,14,24.06.1979,25221,26.94
+864,tough,game,502,394,18,20.02.1974,22645,269.32
+865,likely,game,629,587,12,09.04.1995,99761,494.95
+866,decision,modmovie,649,202,14,18.11.1992,68383,252.84
+867,color,advertising,39,907,16,04.12.1990,89157,33.57
+868,message,advertising,411,138,21,22.08.2007,66044,284.65
+869,receive,advertising,512,156,18,23.05.2008,54418,436.1
+870,specific,game,623,1010,12,29.01.2015,37162,275.17
+871,similar,demo,571,285,16,11.04.1970,76513,174.89
+872,yes,modmovie,476,408,16,21.04.1990,7289,378.11
+873,training,demo,490,492,14,07.08.1983,98857,337.89
+874,by,advertising,273,603,18,13.03.1982,89733,480.07
+875,local,game,539,353,21,29.06.1985,30927,129.64
+876,thank,demo,582,832,14,30.12.1984,76059,60.35
+877,participant,game,294,480,21,02.08.1984,43979,329.59
+878,poor,demo,352,825,18,08.08.1985,35918,118.56
+879,morning,demo,919,358,21,17.04.2013,53709,349.17
+880,their,advertising,445,932,14,09.03.1977,28223,288.73
+881,happy,game,684,287,16,10.09.1989,84616,31.46
+882,physical,advertising,586,334,18,13.11.1989,65305,8.37
+883,serve,game,425,256,14,02.09.1975,31757,489.67
+884,how,game,1020,471,14,01.05.1971,40055,207.99
+885,future,modmovie,518,717,21,01.04.1983,70107,118.76
+886,whom,game,11,455,14,29.11.2017,81163,40.12
+887,art,demo,936,678,21,24.01.1978,88086,310.02
+888,reveal,demo,93,306,12,24.10.1974,73572,69.05
+889,film,modmovie,508,27,12,23.10.1997,66358,138.93
+890,trade,game,152,29,21,19.06.2008,37879,219.22
+891,process,demo,517,146,18,25.04.1984,67447,457.43
+892,meeting,advertising,516,500,14,29.01.1979,13373,254.17
+893,whatever,game,877,383,14,23.06.1987,55843,439.35
+894,play,game,699,902,18,12.08.1970,14340,197.88
+895,knowledge,advertising,78,480,16,28.12.1996,82721,297.5
+896,bed,demo,499,472,16,04.06.1996,7902,184.21
+897,about,advertising,951,22,14,15.06.2015,11011,397.17
+898,low,advertising,88,385,14,31.01.2009,81893,26.31
+899,card,modmovie,606,689,14,01.07.2006,20522,301.57
+900,discover,advertising,666,295,16,18.02.1998,71793,292.76
+901,listen,advertising,413,92,12,04.08.1981,28791,303.22
+902,fall,game,574,455,18,28.02.1994,69464,408.2
+903,medical,modmovie,466,287,16,05.05.2002,30537,8.75
+904,likely,demo,422,947,16,23.03.1979,33622,226.24
+905,culture,demo,528,737,14,02.03.1991,67641,226.38
+906,per,game,398,460,12,05.07.1993,81867,465.96
+907,toward,advertising,571,54,12,31.10.1990,44501,159.21
+908,room,advertising,765,483,16,05.01.1997,12149,69.1
+909,hot,advertising,459,879,16,21.03.1999,98134,74.65
+910,reflect,modmovie,37,245,16,25.09.1985,44448,5.78
+911,toward,modmovie,790,478,21,09.03.1975,99120,498.55
+912,represent,demo,557,152,21,13.11.1982,44059,365.73
+913,American,demo,296,51,21,06.08.1984,23369,49.01
+914,the,game,4,493,12,14.06.1974,80124,30.64
+915,experience,demo,271,176,14,16.03.1992,66570,160.01
+916,add,modmovie,743,625,16,13.08.2011,22552,441.66
+917,race,advertising,411,269,14,30.08.2002,44552,104.25
+918,culture,advertising,571,742,21,12.03.1994,46864,435.46
+919,current,game,19,837,18,25.11.2019,99478,260.52
+920,military,modmovie,416,585,12,19.08.1985,20021,230.57
+921,painting,demo,339,675,16,05.06.2011,6721,384.89
+922,table,game,219,341,16,17.06.1988,38277,180.73
+923,onto,advertising,420,299,16,05.11.2020,7598,128.53
+924,culture,modmovie,90,987,16,03.02.1985,69016,392.25
+925,all,demo,551,935,18,28.03.2022,24038,76.36
+926,care,game,381,493,18,30.10.2019,5683,316.33
+927,lawyer,demo,1011,500,12,06.09.2003,53755,455.71
+928,although,modmovie,392,63,16,03.10.2019,43166,136.98
+929,maintain,game,393,625,12,24.03.1978,88986,450.91
+930,probably,game,24,303,21,10.07.2016,16656,242.75
+931,during,game,1004,558,12,08.08.1974,14506,156.47
+932,become,game,416,522,18,10.11.1996,5162,140.88
+933,air,demo,198,762,12,15.07.2004,10523,61.43
+934,few,game,124,119,16,20.03.2017,40293,256.26
+935,appear,advertising,268,632,14,17.11.1985,93236,411.3
+936,will,advertising,397,585,21,24.05.2008,5932,342.28
+937,claim,advertising,821,448,21,30.05.2001,8502,270.42
+938,enough,game,712,425,21,28.04.1984,27494,73.8
+939,large,demo,435,906,16,29.06.1986,17369,21.03
+940,team,modmovie,374,449,12,19.09.1994,94489,141.16
+941,agreement,game,562,422,12,22.09.1976,72514,216.75
+942,we,modmovie,518,4,12,12.04.2006,45723,354.74
+943,behavior,demo,177,829,14,21.09.1988,6585,22.67
+944,positive,modmovie,377,306,18,16.09.1996,73051,253.63
+945,race,demo,828,588,12,11.08.1975,45869,27.17
+946,their,advertising,776,414,12,28.10.1982,46992,328.02
+947,us,demo,456,455,12,21.10.1992,5158,105.02
+948,prepare,game,785,616,12,28.05.1993,34877,268.91
+949,reveal,modmovie,194,98,12,18.11.2017,84280,467.08
+950,tough,demo,333,854,12,28.04.2005,84586,13.49
+951,never,modmovie,48,410,12,30.01.2017,7927,21.65
+952,yourself,modmovie,207,1021,16,03.09.1990,74118,72.45
+953,benefit,demo,689,564,21,25.03.2007,49219,246.55
+954,arrive,game,99,411,18,15.10.1989,19328,347.92
+955,this,advertising,29,272,14,04.09.1986,24329,359.14
+956,skill,modmovie,27,523,12,17.02.1984,93840,478.79
+957,mother,advertising,149,456,21,25.06.1996,79943,267.22
+958,try,demo,268,292,16,19.04.2008,20549,340.9
+959,community,modmovie,756,26,16,14.09.2006,64646,71.68
+960,television,demo,876,1,14,30.09.2015,48299,351.95
+961,without,demo,421,787,18,30.07.2018,56413,497.53
+962,color,modmovie,343,876,18,27.06.1970,93361,303.11
+963,four,modmovie,727,578,14,08.06.1987,44627,259.6
+964,glass,modmovie,408,160,21,06.08.1970,16739,51.41
+965,focus,demo,456,499,14,05.05.2003,66464,280.73
+966,situation,modmovie,595,932,18,29.06.1985,99099,242.38
+967,window,game,937,218,12,22.06.1970,28167,357.53
+968,she,advertising,502,233,14,21.10.1997,10189,488.29
+969,Republican,modmovie,664,682,21,07.04.1989,91652,450.94
+970,public,advertising,998,955,18,03.12.1983,8568,60.08
+971,effort,game,649,630,14,05.03.1977,35869,310.35
+972,or,modmovie,86,195,12,10.08.1999,56645,18.6
+973,level,game,490,901,16,25.05.2015,35046,200.81
+974,ten,demo,405,77,18,07.10.2006,34606,308.41
+975,always,game,624,98,14,06.01.1977,83444,370.64
+976,relate,game,609,472,14,01.10.2013,42771,428.23
+977,truth,demo,171,142,16,22.12.2004,87140,25.72
+978,detail,advertising,343,346,21,23.05.1987,74321,337.87
+979,himself,game,550,547,12,31.05.1999,49178,293.77
+980,left,game,435,456,12,02.11.1985,276,352.16
+981,audience,game,170,192,12,23.11.1990,73721,496.94
+982,traditional,game,433,109,16,04.06.1992,71646,102.69
+983,weight,modmovie,422,512,12,02.04.1994,45996,152.13
+984,building,game,700,189,21,15.03.1981,39925,257.77
+985,wear,demo,212,359,16,16.03.2004,28347,4.76
+986,course,demo,502,829,18,24.06.1972,50552,413.97
+987,support,advertising,145,430,16,19.02.1999,6552,2.62
+988,control,modmovie,787,913,12,07.12.2010,21215,394.93
+989,buy,game,107,383,18,20.02.2013,76513,444.91
+990,fly,advertising,10,501,14,31.12.1998,99936,478.78
+991,prepare,advertising,455,872,14,13.05.1975,99554,463.71
+992,social,modmovie,998,453,21,06.09.2006,54704,182.52
+993,race,advertising,401,327,14,20.10.1993,81441,313.57
+994,physical,modmovie,342,1016,16,06.10.1999,12860,140.51
+995,scene,advertising,560,198,16,06.01.1990,41475,347.22
+996,notice,advertising,422,58,21,31.05.2018,38839,11.1
+997,or,modmovie,460,334,16,25.03.2002,88414,186.64
+998,red,advertising,493,700,21,12.03.1983,90462,352.8
+999,often,game,891,148,12,14.04.2004,9236,218.07
+1000,poor,advertising,421,522,18,03.01.1991,2768,267.54

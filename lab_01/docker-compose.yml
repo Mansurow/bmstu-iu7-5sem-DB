@@ -1,0 +1,15 @@
+version: '3.9'
+services: 
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: "lab_01"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+    ports:
+      - "5555:5432"   
+    
+volumes:
+  dbdata:

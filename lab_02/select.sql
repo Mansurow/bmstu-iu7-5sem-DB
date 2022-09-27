@@ -24,4 +24,3 @@ where clients.nick like '%and%' and
 games.id = 2
 
 --4 Запрос с предикатом in
-Select 

@@ -42,5 +42,5 @@ types_con = ["игровая консоль",
 type_game = ["game",
              "demo",
              "advertising",
-             "mod"
-             "movie"]
+             "mod",
+             "dlc"]

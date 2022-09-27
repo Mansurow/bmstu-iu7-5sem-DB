@@ -20,47 +20,67 @@ id,name
 19,Commentary available
 20,Includes level editor
 21,Game demo
-22,Экшены
-23,Бесплатно
-24,Для нескольких игроков
-25,Кроссплатформенная игра
-26,Достижения Steam
-27,Коллекционные карточки
-28,Имеются субтитры
-29,Мастерская Steam
-30,Покупки внутри приложения
-31,Контроллер (частично)
-32,Имеется античит Valve
-33,Статистика
-34,Включает редактор уровней
-35,Имеются комментарии
-36,Remote Play на телефоне
-37,Remote Play на планшете
-38,Co-op
-39,Full controller support
-40,Steam Leaderboards
-41,Remote Play on TV
-42,Free to Play
-43,Strategy
-44,Steam Workshop
-45,SteamVR Collectibles
-46,In-App Purchases
-47,Adventure
-48,Online Co-op
-49,Shared/Split Screen Co-op
-50,Shared/Split Screen
-51,Indie
-52,RPG
-53,Mods
-54,Simulation
-55,LAN PvP
-56,LAN Co-op
-57,Animation & Modeling
-58,Video Production
-59,Massively Multiplayer
-60,MMO
-61,Casual
-62,Sports
-63,Racing
-64,Early Access
-65,Downloadable Content
+22,Free to Play
+23,Steam Workshop
+24,In-App Purchases
+25,Co-op
+26,Full controller support
+27,Steam Leaderboards
+28,Remote Play on TV
+29,Online Co-op
+30,Strategy
+31,SteamVR Collectibles
+32,Экшены
+33,Приключенческие игры
+34,Для одного игрока
+35,Для нескольких игроков
+36,Кооперативная игра
+37,Кооператив (по сети)
+38,Кооператив (общий экран)
+39,Общий экран
+40,Достижения Steam
+41,Контроллер (полностью)
+42,Коллекционные карточки
+43,Имеются субтитры
+44,Мастерская Steam
+45,Статистика
+46,Включает редактор уровней
+47,Имеются комментарии
+48,Remote Play на телефоне
+49,Remote Play на планшете
+50,Remote Play на телевизоре
+51,Akcja
+52,Wieloosobowa
+53,Osiągnięcia Steam
+54,Pełna obsługa kontrolerów
+55,Karty kolekcjonerskie Steam
+56,Warsztat Steam
+57,Zakupy w aplikacji
+58,Włączona funkcja Anti-Cheat
+59,Statystyki
+60,Remote Play na telefonie
+61,Remote Play na tablecie
+62,Remote Play na telewizorze
+63,Indie
+64,RPG
+65,Mods
+66,Simulation
+67,LAN PvP
+68,LAN Co-op
+69,Animation & Modeling
+70,Video Production
+71,Racing
+72,Adventure
+73,Massively Multiplayer
+74,MMO
+75,Casual
+76,Sports
+77,Shared/Split Screen
+78,Downloadable Content
+79,Shared/Split Screen Co-op
+80,Early Access
+81,Mods (require HL2)
+82,Ролевые игры
+83,Казуальные игры
+84,Инди
+85,Стратегии

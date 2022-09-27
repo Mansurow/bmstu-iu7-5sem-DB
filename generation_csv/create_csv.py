@@ -66,11 +66,11 @@ def create_fake_client_data(count):
                   user['username'], fio[0], fio[1], fio[2],
                   faker_ru.country() + " " + faker_ru.address(),
                   user['sex'],
-                  faker_ru.date(pattern="%d.%m.%Y"),
+                  faker_ru.date(),
                   user['mail'],
                   user['mail'].split("@")[0],
                   faker_ru.password(),
-                  faker_ru.date(pattern="%d.%m.%Y")]
+                  faker_ru.date()]
         clients.append(client)
     return clients
 

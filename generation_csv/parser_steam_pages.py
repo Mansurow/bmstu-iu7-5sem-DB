@@ -34,40 +34,40 @@ def parsing_steam_games_data(count):
                 developer = publisher = "Valve"
 
             try:
-                price = float(data["price_overview"]["initial"]) / 100
+                price = float(float(data["price_overview"]["initial"]) / 100)
             except Exception:
                 if is_free:
-                    price = 0
+                    price = 0.0
                 else:
-                    price = randint(200, 2000)
+                    price = randint(200, 20000) / 100
 
             data_publish = data["release_date"]["date"]
 
             data_split = data_publish.split(" ")
             if data_split[1] == "Jan," or data_split[1] == "янв.":
-                data_publish = data_split[0] + ".01." + data_split[2]
+                data_publish = data_split[2] + "-01-" + data_split[0]
             elif data_split[1] == "Feb," or data_split[1] == "фев.":
-                data_publish = data_split[0] + ".02." + data_split[2]
+                data_publish = data_split[2] + "-02-" + data_split[0]
             elif data_split[1] == "Mar," or data_split[1] == "мар.":
-                data_publish = data_split[0] + ".03." + data_split[2]
+                data_publish = data_split[2] + "-03-" + data_split[0]
             elif data_split[1] == "Apr," or data_split[1] == "апр.":
-                data_publish = data_split[0] + ".04." + data_split[2]
+                data_publish = data_split[2] + "-04-" + data_split[0]
             elif data_split[1] == "May," or data_split[1] == "май.":
-                data_publish = data_split[0] + ".05." + data_split[2]
+                data_publish = data_split[2] + "-05-" + data_split[0]
             elif data_split[1] == "Jun," or data_split[1] == "июн.":
-                data_publish = data_split[0] + ".06." + data_split[2]
+                data_publish = data_split[2] + "-06-" + data_split[0]
             elif data_split[1] == "Jul," or data_split[1] == "июл.":
-                data_publish = data_split[0] + ".07." + data_split[2]
+                data_publish = data_split[2] + "-07-" + data_split[0]
             elif data_split[1] == "Aug," or data_split[1] == "авг.":
-                data_publish = data_split[0] + ".08." + data_split[2]
+                data_publish = data_split[2] + "-08-" + data_split[0]
             elif data_split[1] == "Sep," or data_split[1] == "сен.":
-                data_publish = data_split[0] + ".09." + data_split[2]
+                data_publish = data_split[2] + "-09-" + data_split[0]
             elif data_split[1] == "Oct," or data_split[1] == "окт.":
-                data_publish = data_split[0] + ".10." + data_split[2]
+                data_publish = data_split[2] + "-10-" + data_split[0]
             elif data_split[1] == "Nov," or data_split[1] == "нояб.":
-                data_publish = data_split[0] + ".11." + data_split[2]
+                data_publish = data_split[2] + "-11-" + data_split[0]
             elif data_split[1] == "Dec," or data_split[1] == "дек.":
-                data_publish = data_split[0] + ".12." + data_split[2]
+                data_publish = data_split[2] + "-12-" + data_split[0]
 
             try:
                 categories = data["categories"]
@@ -150,7 +150,7 @@ def parsing_steam_games_data(count):
                 COMPANY[randint(0, len(COMPANY) - 1)],
                 COMPANY[randint(0, len(COMPANY) - 1)],
                 POSTS_AGE[randint(0, len(POSTS_AGE) - 1)],
-                faker_ru.date(pattern="%d.%m.%Y"),
+                faker_ru.date(),
                 randint(200, 100000),
                 randint(150, 50000) / 100]
         games_arr.append(game)

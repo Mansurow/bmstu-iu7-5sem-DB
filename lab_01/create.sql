@@ -1,4 +1,6 @@
-CREATE TABLE IF NOT EXISTS public.games (
+CREATE SCHEMA tp
+
+CREATE TABLE IF NOT EXISTS tp.games (
     id int,
     name text,
     type text,
@@ -10,16 +12,17 @@ CREATE TABLE IF NOT EXISTS public.games (
     price numeric
 );
 
-CREATE TABLE IF NOT EXISTS public.genres (
+CREATE TABLE IF NOT EXISTS tp.genres (
     id int,
     name text
 );
 
-CREATE TABLE IF NOT EXISTS public.categories (
+CREATE TABLE IF NOT EXISTS tp.categories (
     gameId int,
     genreId int
 );
-CREATE TABLE IF NOT EXISTS public.platforms (
+
+CREATE TABLE IF NOT EXISTS tp.platforms (
     id int,
     name text,
     manufacturer int,
@@ -27,17 +30,17 @@ CREATE TABLE IF NOT EXISTS public.platforms (
     year_production int
 );
 
-CREATE TABLE IF NOT EXISTS public.supports (
+CREATE TABLE IF NOT EXISTS tp.supports (
     gameId int,
     platformId int
 );
 
-CREATE TABLE IF NOT EXISTS public.typies_company (
+CREATE TABLE IF NOT EXISTS tp.typies_company (
     id int,
     name text
 );
 
-CREATE TABLE IF NOT EXISTS public.companies (
+CREATE TABLE IF NOT EXISTS tp.companies (
     id int,
     name text,
     country text,
@@ -49,7 +52,7 @@ CREATE TABLE IF NOT EXISTS public.companies (
     url text
 );
 
-CREATE TABLE IF NOT EXISTS public.clients (
+CREATE TABLE IF NOT EXISTS tp.clients (
     id int,
     nick text,
     surname text,
@@ -64,7 +67,7 @@ CREATE TABLE IF NOT EXISTS public.clients (
     registration_date date
 );
 
-CREATE TABLE IF NOT EXISTS public.sales (
+CREATE TABLE IF NOT EXISTS tp.sales (
     gameId int,
     clientId int
 );

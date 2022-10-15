@@ -15,10 +15,11 @@ order by G1.name, developer;
 
 --2 Запрос с предикатом between
 --Вывести игры разработанные между датами...
-Select games.name,
-       games.date_publish
+Select name,
+       date_publish
 from tp.games
-where date_publish between '01-01-2000' and '2020-01-01';
+where date_publish between '01-01-2015' and '2020-01-01'
+order by date_publish
 
 --3 Запрос с предикатом Like
 -- Получить список ники клиентов в описании которых присутствует слово 'and', обладающие игрой с id = 2
@@ -211,7 +212,7 @@ where id in (Select g.id
                     where c.id is null
                     )
                     
---22 Инструкция SELECT, использующая рекурсивное обобщенное табличное выражениe
+--22 Инструкция SELECT, использующая обобщенное табличное выражениe
 --Вывести сколько в среднем каждая компания разработала игр
 with CDG(id, count_games) as(
     Select developer, count(*) as total
@@ -227,27 +228,18 @@ WITH recursive PriceGames(gameid, gamename, devid, price, level) as
 (
     Select g.id, g.name, g.developer, g.price, 0 as level
     from tp.games as g
-    where g.developer = 378
+    where g.price = 0
     
     UNION
     
     Select g.id, g.name, g.developer, g.price, level + 1
     from tp.games as g 
     join PriceGames as d
-    on g.developer - d.devid = 10 * level
+    on g.price = d.price + 133 * (level + 1)
 )
--- WITH PriceGames(gameid, gamename, devid, price, level) as 
--- (
---     Select g.id, g.name, g.developer, g.price, null as level
---     from tp.games as g
-
---     UNION 
-    
---     Select g.id, g.name, g.developer, g.price, 0 as level
---     from tp.games as g
---     where g.developer = 378
--- )
 Select * from PriceGames
+
+select price from tp.games
 
 --24 Оконные функции. Использование конструкций MIN/MAX/AVG OVER()
 --Для каждой компании вывести среднее значение стоимости игр
@@ -270,4 +262,34 @@ Select * from (Select c.id, c.name, c.country,
                on g.developer = c.id) data
 where cnt = 1
 
+
+Select c.name
+from tp.companies as c
+
+Select c.id, c.name, count(c.id)
+from tp.companies as c
+join (
+    Select g.id, g.name, g.developer, count(g.name) as cnt
+    from tp.games as g
+    join tp.supports as sp 
+    on sp.gameid = g.id
+    join tp.platforms as pl 
+    on sp.platformid = pl.id and pl.name like '%Xbox%'
+    group by g.id
+    order by g.developer
+) as gp on c.id = gp.developer
+group by c.id
+order by c.name
+
+Select g.name, c.name, 'Xbox' as platfrom
+from tp.games as g
+join tp.supports as sp
+on sp.gameid = g.id
+join tp.platforms as pl
+on pl.id = sp.platformid
+and pl.name like '%Xbox%'
+join tp.companies as c
+on g.developer = c.id
+group by g.name, c.name
+order by c.name
 

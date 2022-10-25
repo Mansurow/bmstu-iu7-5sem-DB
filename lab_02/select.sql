@@ -1,3 +1,4 @@
+-- Active: 1666620714975@@127.0.0.1@5555@lab_01@tp
 Select * from tp.games 
 --1.Запрос с предикатом сравнения
 --Вывести игры, где копии более 1000000, объединяя при этом таблицы игры и компании, сортируя по имени 
@@ -19,14 +20,14 @@ Select name,
        date_publish
 from tp.games
 where date_publish between '01-01-2015' and '2020-01-01'
-order by date_publish
+order by date_publish;
 
 --3 Запрос с предикатом Like
 -- Получить список ники клиентов в описании которых присутствует слово 'and', обладающие игрой с id = 2
 Select clients.nick, games.name 
 from tp.games, tp.clients
 where clients.nick like '%and%' and 
-games.id = 2
+games.id = 2;
 
 --4 Запрос с предикатом in c вложенным подзапросом
 --Получить список игр, разработанных компаниями из Японии, купленных клиентов 3
@@ -37,7 +38,7 @@ where developer in (
     select id
     from tp.companies
     where country = 'Япония'
-) 
+);
 
 --5 Запрос с предикатом EXISTS с вложенным подзапросом
 --Вывести списко игр, которые поддерживают платформу 1
@@ -49,7 +50,7 @@ where EXISTS(
     join tp.supports as spr
     on gms.id = spr.gameid 
     and spr.platformid = 1
-)
+);
 
 --6 Запрос, использующая предикат сравнения с квантором ALL, SOME, ANY
 --Получить список компаний, где количество сотрудников больше, чем у 5-го компаний
@@ -59,7 +60,7 @@ where number_employees > ALL(
       Select number_employees
       from tp.companies
       where type = 5
-)
+);
 
 --Получить список игр после 2002, где количество копий равно любой из игр выпушенного до 2002 года
 Select name, date_publish, number_copies
@@ -68,7 +69,7 @@ where number_copies = ANY(
     Select number_copies 
     from tp.games
     where date_publish < '2002-01-01' 
-) and date_publish >= '2002-01-01' 
+) and date_publish >= '2002-01-01';
 
 --7 Запрос, использующая агрегатные функции в выражениях столбцов
 Select 
@@ -77,7 +78,7 @@ Select
     SUM(number_copies) / COUNT(*) as clac_avg_copies,     -- SUM() нахождение  суммы, COUNT()
     MIN(number_copies) as min_copies,
     MAX(number_copies) as max_copies
-from tp.games
+from tp.games;
 
 --8 Запрос, использующая скалярные подзапросы в выражениях столбцов
 Select id,
@@ -88,7 +89,7 @@ Select id,
         from tp.companies
         where tp.games.developer = id),
 from tp.games
-where type = 'demo'
+where type = 'demo';
 
 --9 Запрос, использующая простое выражение CASE
 Select name,
@@ -101,7 +102,7 @@ Select name,
           WHEN date_part('year', now()) - 1 THEN 'last year'
           ELSE (DATE_PART('year', now()) - DATE_PART('year', date_publish))::text || ' years ago'
       end as "when"    
-from tp.games
+from tp.games;
 
 --10 Запрос, использующая поисковое выражение CASE
 Select name,
@@ -112,7 +113,7 @@ Select name,
             else 'corporation'
        END as cmp
 from tp.companies
-order by cmp
+order by cmp;
 
 --11 Создание новой временной локальной таблицы из результирующего набора данных интрукции Select
 Select id,
@@ -134,7 +135,7 @@ join (
     from tp.companies
     group by id
     order by SNE desc
-    LIMIT 1) as OD on od.id = g.developer
+    LIMIT 1) as OD on od.id = g.developer;
 
 --13 Запрос Select, использующая вложенные подзапросы с уровнем вложенности
 --Вывести списко компаний, у которых игр набрали опред бюджет и игра с поределенным жанром
@@ -149,27 +150,27 @@ where id in ( Select g.developer
                                                                where name like '%Steam%')
                          ) 
               and (price * number_copies) > 100000
-            )
+            );
 
 --14 Инструкция SELECT, консолидирующая данные с помощью предложения GROUP BY, но без предложения HAVING. 
 Select g.id, g.name, g.price, AVG(c.number_employees) as avg_employees
 from tp.games g left outer join tp.companies as c on c.id = g.developer
 where g.type = 'game'
 group by g.id, g.name, g.price
-order by g.name
+order by g.name;
 
 --15 Инструкция SELECT, консолидирующая данные с помощью предложения GROUP BY и предложения HAVING
 Select g.id, AVG(g.price)
 from tp.games g
 group by g.id
 having avg(g.price) > (Select avg(price)
-                       from tp.games)
+                       from tp.games);
 
 Select * from tp.games
-where id = 1001
+where id = 1001;
 --16 Однострочная инструкция INSERT, выполняющая вставку в таблицу одной строки значений
 Insert into tp.games
-values (1001, 'ARK Survival Evolved', 'game', 378, 400, 14, '2005-01-10', 43131, 499.00)
+values (1001, 'ARK Survival Evolved', 'game', 378, 400, 14, '2005-01-10', 43131, 499.00);
 
 --17 Многострочная инструкция INSERT, выполняющая вставку в таблицу результирующего набора данных вложенного подзапроса
 Insert into tp.categories
@@ -177,32 +178,32 @@ Select ( Select id from tp.games
          where name = 'ARK Survival Evolved'
 ), id
 from tp.genres
-where name like '%Steam%'
+where name like '%Steam%';
 
 Select * from tp.categories
-where gameid = 1001
+where gameid = 1001;
 
 DELETE from tp.categories
-where gameid = 1001
+where gameid = 1001;
 
 --18 Простая инструкция UPDATE
 UPDATE tp.games
 SET price = price * 1.5
-where id > 1000
+where id > 1000;
 
 Select * from tp.games
-where id > 1000
+where id > 1000;
 
 --19 Инструкция UPDATE со скалярным подзапросом в предложении SET
 Update tp.games
 SET price = (Select AVG(price)
              from tp.games
              where price > 100)
-where id > 950    
+where id > 950;    
 
 --20 Простая инструкция DELETE
 DELETE from tp.games
-where id is null
+where id is null;
 
 --21 Инструкция DELETE с вложенным коррелированным подзапросом в предложении WHERE.
 Delete from tp.games
@@ -210,7 +211,7 @@ where id in (Select g.id
                     from tp.games g left outer join tp.companies c 
                     on g.developer = c.id
                     where c.id is null
-                    )
+                    );
                     
 --22 Инструкция SELECT, использующая обобщенное табличное выражениe
 --Вывести сколько в среднем каждая компания разработала игр
@@ -221,7 +222,7 @@ with CDG(id, count_games) as(
     group by developer
 )
 SELECT AVG(count_games) as avg_count_games
-from CDG
+from CDG;
 
 --23 Инструкция SELECT, использующая рекурсивное обобщенное табличное выражение.
 WITH recursive PriceGames(gameid, gamename, devid, price, level) as 
@@ -237,9 +238,9 @@ WITH recursive PriceGames(gameid, gamename, devid, price, level) as
     join PriceGames as d
     on g.price = d.price + 133 * (level + 1)
 )
-Select * from PriceGames
+Select * from PriceGames;
 
-select price from tp.games
+select price from tp.games;
 
 --24 Оконные функции. Использование конструкций MIN/MAX/AVG OVER()
 --Для каждой компании вывести среднее значение стоимости игр
@@ -260,11 +261,11 @@ Select * from (Select c.id, c.name, c.country,
                from tp.companies as c 
                join tp.games as g
                on g.developer = c.id) data
-where cnt = 1
+where cnt = 1;
 
 
 Select c.name
-from tp.companies as c
+from tp.companies as c;
 
 Select c.id, c.name, count(c.id)
 from tp.companies as c
@@ -279,7 +280,7 @@ join (
     order by g.developer
 ) as gp on c.id = gp.developer
 group by c.id
-order by c.name
+order by c.name;
 
 Select g.name, c.name, 'Xbox' as platfrom
 from tp.games as g
@@ -291,5 +292,5 @@ and pl.name like '%Xbox%'
 join tp.companies as c
 on g.developer = c.id
 group by g.name, c.name
-order by c.name
+order by c.name;
 

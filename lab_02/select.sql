@@ -294,3 +294,18 @@ on g.developer = c.id
 group by g.name, c.name
 order by c.name;
 
+-- Компания и количество игр
+Select c.id, c.name, count(c.id)
+from tp.companies as c
+join (
+    Select g.id, g.name, g.developer, count(g.name) as cnt
+    from tp.games as g
+    join tp.supports as sp 
+    on sp.gameid = g.id
+    join tp.platforms as pl 
+    on sp.platformid = pl.id
+    group by g.id
+    order by g.developer
+) as gp on c.id = gp.developer
+group by c.id
+order by c.name;

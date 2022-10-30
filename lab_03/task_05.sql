@@ -23,7 +23,6 @@ BEGIN
 END;
 $$ LANGUAGE PLPGSQL;
 
-Select * from tp.games;
+Select * from tp.games where id = 1;
 
-CALL tp.discount(15);
 CALL tp.price_up(1, 100);

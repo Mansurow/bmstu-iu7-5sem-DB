@@ -2,7 +2,7 @@ version: '3.9'
 services: 
   postgres:
     container_name: "db-labs"
-    image: postgres:latest
+    image: postgres:13
     environment:
       POSTGRES_DB: "lab_01"
       POSTGRES_USER: "postgres"

@@ -17,7 +17,7 @@ BEGIN
     FROM tp.clients as c
         join tp.sales as s on c.id = s.clientid     
     group by c.id, c.name) as tmp
-    where tmp.cnt >= 500;
+    where tmp.cnt >= count_games;
     
     RETURN QUERY
     SELECT *

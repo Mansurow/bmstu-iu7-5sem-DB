@@ -8,6 +8,6 @@ BEGIN
 END;
 $$ LANGUAGE PLPGSQL;
 
-Select name, tp.get_active(price, number_copies) as active 
+Select name, tp.get_active(price, number_copies)::money as active 
 FROM tp.games;
 

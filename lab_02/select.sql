@@ -1,5 +1,5 @@
--- Active: 1666620714975@@127.0.0.1@5555@lab_01@tp
-Select * from tp.games 
+-- Active: 1667207481137@@127.0.0.1@5555@lab_01
+Select * from tp.games;
 --1.Запрос с предикатом сравнения
 --Вывести игры, где копии более 1000000, объединяя при этом таблицы игры и компании, сортируя по имени 
 select G1.name,
@@ -221,7 +221,7 @@ with CDG(id, count_games) as(
     where developer is not null
     group by developer
 )
-SELECT AVG(count_games) as avg_count_games
+SELECT  developer, AVG(count_games) as avg_count_games
 from CDG;
 
 --23 Инструкция SELECT, использующая рекурсивное обобщенное табличное выражение.
@@ -293,6 +293,20 @@ join tp.companies as c
 on g.developer = c.id
 group by g.name, c.name
 order by c.name;
+
+-- Вывести таблицу данных о компании и средней цены за все их игр
+with CPG(developer, avg_price) as(
+    Select developer, AVG(price) as avg_price
+    from tp.games 
+    group by developer
+    order by developer
+)
+SELECT c.id, c.name as developer, 
+       g.avg_price
+from CPG g
+right outer join tp.companies c 
+on c.id = g.developer
+order by c.id;
 
 -- Компания и количество игр
 Select c.id, c.name, count(c.id)

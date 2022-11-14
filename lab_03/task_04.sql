@@ -9,6 +9,10 @@ Create table if not exists companies
     parentid int
 );
 
+Insert into companies values(1, 'LTD C0.', null),
+                        (2, 'LTD co. and ...', 1),
+                        (3, 'LTD co. and ... and', 2);
+
 Select * from companies;
 
 CREATE OR REPLACE FUNCTION recursive()

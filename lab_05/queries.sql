@@ -161,3 +161,24 @@ COPY tp.json_table(data) from '/var/lib/postgresql/data/games.json';
 
 SELECT jsonb_array_elements(data)
 FROM tp.json_table;
+
+
+-- Защита 
+-- Записать данные в json Разработчик и кол-во игр
+
+COPY (Select array_to_json(array_agg(row_to_json(ccg))) 
+from (Select c.name as company, 
+      count(c.id) as count_game
+      from tp.companies as c
+      join tp.games as g on g.developer = c.id
+      group by c.id
+      order by c.name
+) ccg) 
+to '/var/lib/postgresql/data/ccg.json';
+
+COPY tp.json_table(data) from '/var/lib/postgresql/data/ccg.json';
+Select d->>'company' as company, 
+       (d->>'count_games')::INT as count_games
+    from 
+    (SELECT jsonb_array_elements(data) as d
+    FROM tp.json_table) g;

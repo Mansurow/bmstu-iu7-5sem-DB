@@ -109,6 +109,51 @@ SELECT * FROM tp.games WHERE id = 1005;
 
 DELETE FROM tp.games where id = 1005;
 
+
+-- Триггер instead of CLR 
+CREATE OR REPLACE FUNCTION tp.insert_games_date_limit_py()
+RETURNS TRIGGER
+AS $$ 
+if TD['new']['developer'] is None:
+    plpy.notice("The game developer is not specified, null is passed!")
+    return None
+elif TD['new']['publisher'] is None:
+    plpy.notice("The game publisher is not specified, null is passed!");
+    return None
+plpy.notice("Success!")
+plpy.notice(f"{TD['new']}")
+inst = plpy.prepare("INSERT INTO tp.games VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9)", 
+        ["INT", "TEXT", "TEXT", "INT", "INT", "INT", "DATE", "INT", "NUMERIC"])
+plpy.execute(inst, [TD['new']['id'],
+                    TD['new']['name'],
+                    TD['new']['type'],
+                    TD['new']['developer'],
+                    TD['new']['publisher'],
+                    TD['new']['req_age'],
+                    TD['new']['date_publish'],
+                    TD['new']['number_copies'],
+                    TD['new']['price']])     
+$$ LANGUAGE PLPYTHON3U
+                    
+-- Удаление триггера 
+DROP TRIGGER IF EXISTS insert_games_date_limit ON tp.games_view;
+-- Создания триггера по условию -- INSTEAD OF
+CREATE TRIGGER insert_games_date_limit
+INSTEAD OF INSERT ON tp.games_view
+FOR ROW
+EXECUTE FUNCTION tp.insert_games_date_limit_py(); 
+
+DELETE from tp.games where id > 1004;
+
+Insert into tp.games_view
+values (1005, 'ARK Survival Evolved', 'game', 1023, 400, 14, '2020-01-10', 43131, 499.00);
+
+Insert into tp.games_view
+values (1005, 'ARK Survival Evolved', 'game', null, 400, 14, '2020-01-10', 43131, 499.00);
+
+Insert into tp.games_view
+values (1005, 'ARK Survival Evolved', 'game', 400, null, 14, '2020-01-10', 43131, 499.00);
+
 -- 6. Определяемый пользователем тип данных CLR
 
 DROP TYPE IF EXISTS tp.company_game;

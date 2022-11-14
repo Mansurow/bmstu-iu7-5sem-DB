@@ -323,3 +323,9 @@ join (
 ) as gp on c.id = gp.developer
 group by c.id
 order by c.name;
+
+Select c.id, c.name, count(c.id)
+from tp.companies as c
+join tp.games as g on g.developer = c.id
+group by c.id
+order by c.name;

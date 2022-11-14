@@ -17,7 +17,7 @@ $$ LANGUAGE PLPGSQL;
 DROP TRIGGER IF EXISTS insert_info_games_trigger on tp.games;
 
 -- Создание триггера
-CREATE OR REPLACE TRIGGER insert_info_games_trigger 
+CREATE TRIGGER insert_info_games_trigger 
 AFTER INSERT ON tp.games
 FOR EACH ROW
 EXECUTE FUNCTION tp.insert_info_games();

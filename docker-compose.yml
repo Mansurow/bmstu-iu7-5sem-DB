@@ -11,6 +11,17 @@ services:
       - ./data:/var/lib/postgresql/data
     ports:
       - "5555:5432"   
-    
+
+  nifi:
+    image: apache/nifi:latest
+    container_name: "db-nifi"
+    environment:
+      - NIFI_WEB_HTTP_PORT=8080
+      - NIFI_JVM_HEAP_INIT=2g
+      - NIFI_JVM_HEAP_MAX=4g
+    volumes:
+      - ./lab_08:/opt/nifi/nifi-current/userdata  
+    ports:
+      - 8080:8080  
 volumes:
   data:

@@ -1,3 +1,5 @@
+-- Active: 1669129963113@@127.0.0.1@5555@rk2
+
 -- Условия все здесь: 
 -- https://studopedia.su/16_78780_bazi-dannih-zadachi-na-moduli-SQL.html
 
@@ -130,7 +132,7 @@ Select delete_all_ddl_triggers();
 
 -- Метаданные таблицы
 SELECT * FROM pg_catalog.pg_tables pcat
-WHERE pcat.schemaname = 'public' AND pcat.tablename LIKE 'a%'
+WHERE pcat.schemaname = 'public' AND pcat.tablename LIKE 'a%';
 
 CREATE OR REPLACE PROCEDURE delete_table_by_startstr(schema TEXT, startstr TEXT)
 AS $$
@@ -263,6 +265,86 @@ CALL delete_duplicate_in_table('tmp_dup');
 
 -------------------------------------------------------------------------------
 --- 7.
---- Создать хранимую процедуру без параметров, которая в текущей базе данных 
---- обновляет все статистики для таблиц в схеме 'dbo'. Созданную хранимую 
---- процедуру протестировать.
+--- Создать хранимую процедуру с выходным параметром, которая уничтожает
+--- все представления в текущей базе данных, которые не были зашифрованы.
+--  Выходной параметр возвращает количество уничтоженных представлений.
+--- Созданную хранимую процедуру протестировать. 
+
+-- Создания View
+CREATE VIEW owners_view
+AS SELECT * FROM owners;
+
+Select *
+from information_schema.views
+where table_schema = 'public';
+
+DROP PROCEDURE delete_views();
+CREATE OR REPLACE PROCEDURE delete_views()
+AS $$
+DECLARE
+    rec RECORD;
+    cur CURSOR FOR
+        Select table_name as view_name
+        from information_schema.views
+        where table_schema = 'public';
+BEGIN
+    OPEN cur;
+    LOOP
+        FETCH cur INTO rec;
+        EXIT WHEN NOT FOUND;
+        RAISE NOTICE 'DROP VEIW: %', rec.view_name; 
+        EXECUTE 'DROP VIEW ' || rec.view_name || ';';
+    END LOOP; 
+    CLOSE cur;
+END;
+$$ LANGUAGE PLPGSQL;
+
+CALL delete_views();
+
+-------------------------------------------------------------------------------
+--- 8. Создать хранимую процедуру без параметров, которая осуществляет поиск
+--- ключевого слова 'EXEC' в тексте хранимых процедур в текущей базе
+--- данных. Хранимая процедура выводит инструкцию 'EXEC', которая
+--- выполняет хранимую процедуру или скалярную пользовательскую
+--- функцию. Созданную хранимую процедуру протестировать
+
+CREATE EXTENSION IF NOT EXISTS plpython3u;
+
+SELECT *
+  FROM information_schema.routines
+  where routine_type = 'PROCEDURE'
+
+CREATE OR REPLACE PROCEDURE get_proc_exec()
+AS $$
+  query = """SELECT routine_name as name 
+             FROM information_schema.routines
+             where routine_type = 'PROCEDURE'
+          """
+
+  res = plpy.execute(query)
+
+  for row in res:
+    procsrc = row["name"]
+    if 'exec' in procsrc.lower():
+      plpy.notice("exec in: " + procsrc)
+    else:
+      plpy.notice("no exec in: " + procsrc)
+$$ LANGUAGE PLPYTHON3U;
+
+CALL get_proc_exec();
+
+-------------------------------------------------------------------------------
+--- 9.Создать хранимую процедуру с выходным параметром, которая выводит
+--- список имен и параметров всех скалярных SQL функций пользователя
+--- (функции типа 'FN') в текущей базе данных. Имена функций без параметров
+--- не выводить. Имена и список параметров должны выводиться в одну строку.
+--- Выходной параметр возвращает количество найденных функций.
+--- Созданную хранимую процедуру протестировать.
+
+
+-------------------------------------------------------------------------------
+--- 10.Создать хранимую процедуру с входным параметром – имя базы данных,
+--- которая выводит имена ограничений CHECK и выражения SQL, которыми
+--- определяются эти ограничения CHECK, в тексте которых на языке SQL
+--- встречается предикат 'LIKE'. Созданную хранимую процедуру
+--- протестировать. 

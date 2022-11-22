@@ -163,4 +163,4 @@ BEGIN
 END;
 $$ LANGUAGE PLPGSQL;
 
-CALL get_index_table_in_schema('public', 'employees')
+CALL get_index_table_in_schema('public', 'employees');

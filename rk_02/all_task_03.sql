@@ -84,7 +84,7 @@ EXECUTE FUNCTION insert_test();
 -- Информация о триггерах
 Select * from information_schema.triggers;
 
-DELETE PROCEDURE delete_all_ddl_triggers;
+DROP FUNCTION delete_all_ddl_triggers;
 
 CREATE OR REPLACE FUNCTION delete_all_ddl_triggers()
 RETURNS INT
@@ -218,3 +218,51 @@ CALL get_proc_info('get');
 --- Создать хранимую процедуру с входным параметром – имя таблицы, которая удаляет 
 --- дубликаты записей из указанной таблицы в текущей базе данных. 
 --- Созданную хранимую процедуру протестировать.
+
+-- Тестовые данные
+drop table tmp_dup;
+
+create table if not exists tmp_dup
+(
+	id int,
+	str text
+);
+
+insert into tmp_dup(id, str) values
+(1, 'a'),
+(2, 'b'),
+(1, 'a'),
+(3, 'd');
+
+insert into tmp_dup(id, str) values
+(1, 'a');
+
+select * 
+from tmp_dup;
+
+-- Выявления дубликатов
+-- ctid - Физическое расположение данной версии строки в таблице.
+SELECT * FROM tmp_dup a
+WHERE a.ctid <> (SELECT min(b.ctid)
+                 FROM   tmp_dup b
+                 WHERE  a.id = b.id);
+
+-- Процедура удаление дубликатов
+CREATE OR REPLACE PROCEDURE delete_duplicate_in_table(table_name TEXT)
+AS $$
+BEGIN
+    EXECUTE 'DELETE FROM ' || table_name || ' tmp_1 
+             WHERE tmp_1.ctid <> (SELECT min(tmp_2.ctid)
+                                  from ' || table_name || ' tmp_2
+                                  WHERE  tmp_1.id = tmp_2.id);'; 
+
+END;
+$$ LANGUAGE PLPGSQL;
+
+CALL delete_duplicate_in_table('tmp_dup');
+
+-------------------------------------------------------------------------------
+--- 7.
+--- Создать хранимую процедуру без параметров, которая в текущей базе данных 
+--- обновляет все статистики для таблиц в схеме 'dbo'. Созданную хранимую 
+--- процедуру протестировать.

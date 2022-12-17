@@ -101,8 +101,8 @@ def insert_games(session):
     try:
         name = input("Название игры: ")
         type = input("Тип: ")
-        developer = input("Разработчик: ")
-        publisher = input("Издатель: ")
+        developer = int(input("Разработчик: "))
+        publisher = int(input("Издатель: "))
         req_age = int(input("Огр. возраст: "))
         date_pubish = input("Дата выпуска: ")
         price = float(input("Цена: "))
@@ -110,22 +110,6 @@ def insert_games(session):
 
         count_games = session.query(func.count(Games.name)).all()
         id = count_games[0][0] + 1
-
-        find_dev = session.query(Companies.id).join(Games, Companies.id == Games.developerID).\
-            where(Companies.name.like('Valve%')).group_by(Companies.id).all()
-        if find_dev:
-            developer = find_dev[0][0]
-        else:
-            print("Такого разработчика не существует!")
-            return
-
-        find_pub = session.query(Companies.id).join(Games, Companies.id == Games.developerID).\
-            where(Companies.name.like('Valve%')).group_by(Companies.id).all()
-        if find_pub:
-            publisher = find_pub[0][0]
-        else:
-            print("Такого издателя не существует!")
-            return
 
         session.execute (
             insert(Games).values(
@@ -143,7 +127,7 @@ def insert_games(session):
         session.commit()
         print("Данные успешно добавлены!")
     except:
-            print("error input data")
+            print("error input data",)
             return
 
 # Select * from tp.games

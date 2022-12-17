@@ -1,4 +1,4 @@
-CREATE SCHEMA tp
+CREATE SCHEMA tp;
 
 CREATE TABLE IF NOT EXISTS tp.games (
     id int,

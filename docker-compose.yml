@@ -19,7 +19,7 @@ services:
     networks:
         - my_persistent_network
 
-  # configuration manager for NiFi
+  # configuration manager for NiFi (lab_08)
   zookeeper:
       hostname: myzookeeper
       container_name: zookeeper_container_persistent
@@ -30,7 +30,7 @@ services:
       networks:
           - my_persistent_network
 
-  # version control for nifi flows
+  # version control for nifi flows (lab_08)
   registry:
       hostname: myregistry
       container_name: registry_container_persistent
@@ -49,7 +49,7 @@ services:
       networks:
           - my_persistent_network
 
-  # data extraction, transformation and load service
+  # data extraction, transformation and load service (lab_08)
   nifi:
       hostname: mynifi
       container_name: nifi_container_persistent
@@ -82,7 +82,7 @@ services:
       networks:
           - my_persistent_network
           
-  # bi grafana
+  # bi grafana (lab_10)
   grafana:
       image: grafana/grafana:latest
       container_name: grafana_container
@@ -101,6 +101,12 @@ services:
       networks:
         - my_persistent_network
 
+  # redis (lab_09)
+  redis:
+    image: redis:latest
+    container_name: redis_container
+    ports:
+      - "6379:6379"
 networks:
   my_persistent_network:
     driver: bridge

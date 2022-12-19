@@ -69,7 +69,7 @@ Select t.date, get_count_late_staff(t.date) as count_late from staff_track as t;
 -------- Найти средний возраст сотрудников, ненаходящихся на рабочем месте 8 часов в день ---------------
 
 -- Дату рождение к возрасту
-Select id, fio, 
+Select id, fio, department,
        date_part('year', current_date) - date_part('year', birthday) as age 
 from staff;
 
@@ -142,3 +142,39 @@ from
     join staff as s on s.id = dtl.id
     GROUP BY s.department, s.id, s.fio) as dfl
 GROUP BY department;
+
+--------  Найти сотрудников, которые не выходят с рабочего места в течение всего рабочего дня
+Select s.id, s.fio from staff as s
+join (Select idstaff, date, count(*) as count from staff_track
+    group by idstaff, date
+    order by idstaff, date) as st on st.idstaff = s.id
+where date = '2018-12-16' and count = 2;
+
+--------  Найти отделы, в которых нет сотрудников моложе 25 лет
+Select s.department from staff as s
+where s.department not in (
+    Select department
+    from staff
+    where date_part('year', current_date) - date_part('year', birthday) < 25
+)
+GROUP BY s.department;
+
+------- Найти сотрудника, который пришел на работу раньше всех
+Select s.id, s.fio from staff as s
+join staff_track as st on st.idstaff = s.id
+where st.date = current_date -- '2018-12-14' 
+and st.time = (
+    Select MIN(time) from staff_track
+    where date = current_date); -- '2018-12-14'
+
+------- Найти сотрудников, которые опоздали не менее 5 раз
+with late(id, count) as (
+    Select l.idstaff as id, count(l.idstaff) as count
+    from (Select idstaff, date, MIN(time) from staff_track
+        where type = 1
+        GROUP BY idstaff, date) as l
+    GROUP BY l.idstaff
+)
+Select s.fio from late
+join staff as s on s.id = late.id
+where late.count >= 5

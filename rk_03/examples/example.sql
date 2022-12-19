@@ -45,6 +45,29 @@ values (1, to_timestamp('14-12-2018', 'DD-MM-YYYY'), 'Суббота', '9:00', 1
        (2, to_timestamp('14-12-2018', 'DD-MM-YYYY'), 'Суббота', '9:05', 1);
 
 -- Написать функцию, возвращающую количетво поздавщих сотрудников. Дата опоздания передается в качестве праметра.
+CREATE OR REPLACE FUNCTION get_statistic_late_arrive(date_late DATE)
+RETURNS TABLE(late_arrival int, count int)
+AS $$
+BEGIN
+    RETURN QUERY
+    with late(id, minute) as (
+        Select idstaff as id, 
+            date_part('minute', MIN(time) - '9:00') + 
+            date_part('hour', MIN(time) - '9:00') * 60
+        from staff_track
+        where type = 1 and date = date_late
+        GROUP BY idstaff
+    )
+    SELECT minute::int, count(*)::int as count from late
+    where minute > 0
+    GROUP BY minute;
+END            
+$$ LANGUAGE PLPGSQL;
+
+Select * from get_statistic_late_arrive('2018-12-14');
+
+-- Написать табличную функцию, возвращаую статистику на сколько и кто поздал в определенную дату. Дату вводить с клавиатуры.
+-- Минуты, количество попозданий
 CREATE OR REPLACE FUNCTION get_count_late_staff(date_late DATE)
 RETURNS TABLE(count bigint)
 AS $$

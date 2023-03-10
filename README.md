@@ -16,3 +16,13 @@
 | 8    | [Использование ETL инструментов на примере NiFi.](https://github.com/Mansurow/bmstu-iu7-5sem-DB/tree/master/lab_08) |:white_check_mark:  | [lab_08.pdf](https://github.com/Mansurow/bmstu-iu7-5sem-DB/blob/master/docs/Лабораторная%20работа%208.pdf) |
 | 9    | [In-Memory DataBase на примере Redis.](https://github.com/Mansurow/bmstu-iu7-5sem-DB/tree/master/lab_09) |:white_check_mark:  | [lab_09.pdf](https://github.com/Mansurow/bmstu-iu7-5sem-DB/blob/master/docs/Лабораторная%20работа%209.pdf) |
 | 10   | [BI инструменты для визуализации данных на примере Grafan.](https://github.com/Mansurow/bmstu-iu7-5sem-DB/tree/master/lab_10) | :white_check_mark: | [lab_10.pdf](https://github.com/Mansurow/bmstu-iu7-5sem-DB/blob/master/docs/Лабораторная%20работа%2010.pdf) |
+
+## ER-диаграмма
+
+Стек-технологий: 
+- РБД: _PostgreSQL_;
+- ЯП: _Pyhton_.
+
+Тема - **База Данных игр.**
+
+![er](erd/ERD-DB-Games.png)
